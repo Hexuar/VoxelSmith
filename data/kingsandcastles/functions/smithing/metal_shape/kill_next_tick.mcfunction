@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=kingsandcastles.metal_shape,tag=kingsandcastles.kill_metal_shape] run function kingsandcastles:smithing/metal_shape/kill

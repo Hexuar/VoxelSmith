@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=kingsandcastles.check_next_tick] at @s run function kingsandcastles:smithing/hammer/voxel_update/update

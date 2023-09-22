@@ -1,0 +1,1 @@
+execute store success score #bool kingsandcastles.value run data modify storage kingsandcastles:smithing/input shape set from storage kingsandcastles:smithing/data shape
