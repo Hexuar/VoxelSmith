@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "voxelsmith:wooden_hammer"
+        }
+      }
+    },
+    "rewards": {
+      "function": "voxelsmith:crafting/wooden_hammer"
+    }
+  }
+  

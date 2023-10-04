@@ -1,0 +1,1 @@
+execute store success score #bool voxelsmith.value run data modify storage voxelsmith:input shape set from storage voxelsmith:data shape
