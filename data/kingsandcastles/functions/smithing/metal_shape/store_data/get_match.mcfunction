@@ -1,1 +1,0 @@
-execute if score @s kingsandcastles.pos.x = #voxel.x kingsandcastles.value if score @s kingsandcastles.pos.y = #voxel.y kingsandcastles.value if score @s kingsandcastles.pos.z = #voxel.z kingsandcastles.value run scoreboard players set #is_occupied kingsandcastles.value 1

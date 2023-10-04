@@ -1,1 +1,0 @@
-execute positioned ~-0.5 ~ ~-0.5 as @e[type=interaction,tag=kingsandcastles.current_ingot] unless entity @s[dx=1,dy=1,dz=1] run function kingsandcastles:smithing/metal_voxel/kill

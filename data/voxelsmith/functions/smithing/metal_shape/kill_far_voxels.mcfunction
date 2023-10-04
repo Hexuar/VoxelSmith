@@ -1,0 +1,1 @@
+execute positioned ~-0.5 ~ ~-0.5 as @e[type=interaction,tag=voxelsmith.current_ingot] unless entity @s[dx=1,dy=1,dz=1] run function voxelsmith:smithing/metal_voxel/kill

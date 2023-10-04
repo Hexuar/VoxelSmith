@@ -1,0 +1,1 @@
+execute if score @s voxelsmith.pos.x = #voxel.x voxelsmith.value if score @s voxelsmith.pos.y = #voxel.y voxelsmith.value if score @s voxelsmith.pos.z = #voxel.z voxelsmith.value run scoreboard players set #is_occupied voxelsmith.value 1

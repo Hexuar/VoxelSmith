@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=voxelsmith.check_next_tick] at @s run function voxelsmith:smithing/hammer/voxel_update/update
