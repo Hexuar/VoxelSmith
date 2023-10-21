@@ -12,6 +12,7 @@ scoreboard objectives add voxelsmith.pos.z dummy
 scoreboard players set #hammer_modes voxelsmith.hammer_mode 5
 scoreboard players set #-1 voxelsmith.value -1
 scoreboard players set #625 voxelsmith.value 625
+scoreboard players set #16 voxelsmith.value 16
 
 
 # Recipe Data
