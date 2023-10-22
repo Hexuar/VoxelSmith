@@ -3,7 +3,7 @@ advancement revoke @s only voxelsmith:left_click_metal_voxel
 playsound block.anvil.step player @a ~ ~ ~ 1 1
 playsound block.anvil.place player @a ~ ~ ~ 0.1 1
 
-execute if entity @s[gamemode=!creative] run function voxelsmith:damage_item
+execute if entity @s[gamemode=!creative] run function voxelsmith:durability/damage_item
 
 function voxelsmith:get_dir
 

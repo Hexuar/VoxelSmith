@@ -11,7 +11,7 @@ execute as @e[type=item_display,tag=voxelsmith.metal_shape] at @s unless block ~
 execute as @a if predicate voxelsmith:holding_hammer at @s anchored eyes positioned ^ ^ ^0.5 run function voxelsmith:hammer/check_if_smithing
 
 # Blueprints
-execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{blueprint:1b}}}},tag=!voxelsmith.blueprint.used] at @s if block ~ ~-1 ~ anvil run function voxelsmith:blueprints/summon_shape
+execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{blueprint:1b}}}},tag=!voxelsmith.blueprint.used] at @s if block ~ ~-1 ~ anvil align xyz if entity @e[type=item_display,tag=voxelsmith.metal_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] unless entity @e[type=item_display,tag=voxelsmith.blueprint_voxel,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run function voxelsmith:blueprints/summon_shape
 
 # Kill blueprints
 execute as @e[type=item_display,tag=voxelsmith.blueprint_voxel] at @s align xyz unless entity @e[type=item_display,tag=voxelsmith.metal_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run kill @s

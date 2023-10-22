@@ -16,6 +16,16 @@
                 }
               },
               {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Requires 3 Iron Ingots",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              },
+              {
                 "function": "minecraft:set_nbt",
                 "tag": "{CustomModelData:2221800,voxelsmith:{blueprint:1b,blade_blueprint:1b}}"
               },

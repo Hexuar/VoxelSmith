@@ -1,36 +1,45 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:structure_block",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Pommel Blueprint",
-                  "italic": false,
-                  "color": "white"
-                }
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221800,voxelsmith:{blueprint:1b,pommel_blueprint:1b}}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{origin:{x:6, y:0, z:6}}}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{shape:[{y: 0, z: 0, x: 0}, {y: 0, z: 1, x: 0}, {y: 0, z: 0, x: 1}, {y: 0, z: 1, x: 1}, {y: 0, z: 2, x: 1}, {y: 0, z: 0, x: 2}, {y: 0, z: 1, x: 2}, {y: 0, z: 2, x: 2}]}}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pommel Blueprint",
+                "color": "white",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Requires 1 Iron Ingot",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2221800,voxelsmith:{blueprint:1b,pommel_blueprint:1b}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{voxelsmith:{origin:{x:6, y:0, z:6}}}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{voxelsmith:{shape:[{y: 0, z: 0, x: 0}, {y: 0, z: 1, x: 0}, {y: 0, z: 0, x: 1}, {y: 0, z: 1, x: 1}, {y: 0, z: 2, x: 1}, {y: 0, z: 0, x: 2}, {y: 0, z: 1, x: 2}, {y: 0, z: 2, x: 2}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

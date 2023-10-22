@@ -1,0 +1,1 @@
+$data modify storage voxelsmith:smithing recipes append value $(recipe)
