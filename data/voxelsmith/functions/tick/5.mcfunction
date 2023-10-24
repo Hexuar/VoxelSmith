@@ -15,3 +15,6 @@ execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{blueprint:1b}}}},tag=!voxels
 
 # Kill blueprints
 execute as @e[type=item_display,tag=voxelsmith.blueprint_voxel] at @s align xyz unless entity @e[type=item_display,tag=voxelsmith.metal_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run kill @s
+
+# Ground Recipes
+function voxelsmith:ground_recipes/tick

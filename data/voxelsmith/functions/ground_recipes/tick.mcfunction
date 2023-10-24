@@ -1,5 +1,3 @@
-scoreboard players set #tick10 voxelsmith.value 0
-
 
 # Iron
 
