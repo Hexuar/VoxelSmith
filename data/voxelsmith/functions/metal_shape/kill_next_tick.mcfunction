@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=voxelsmith.metal_shape,tag=voxelsmith.kill_metal_shape] run function voxelsmith:metal_shape/kill

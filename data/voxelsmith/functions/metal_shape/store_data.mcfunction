@@ -14,9 +14,6 @@ scoreboard players operation #voxel.x voxelsmith.value = #min.x voxelsmith.value
 scoreboard players operation #voxel.y voxelsmith.value = #min.y voxelsmith.value
 scoreboard players operation #voxel.z voxelsmith.value = #min.z voxelsmith.value
 
-#tellraw Hexuar [{"text":"Min: "},{"score":{"name": "#min.x","objective": "voxelsmith.value"}},{"text":","},{"score":{"name": "#min.y","objective": "voxelsmith.value"}},{"text":","},{"score":{"name": "#min.z","objective": "voxelsmith.value"}},{"text":" Max: "},{"score":{"name": "#max.x","objective": "voxelsmith.value"}},{"text":","},{"score":{"name": "#max.y","objective": "voxelsmith.value"}},{"text":","},{"score":{"name": "#max.z","objective": "voxelsmith.value"}}]
-
 function voxelsmith:metal_shape/store_data/loop_x
 
 function voxelsmith:recipe_checker/recipe_loop/init
-schedule function voxelsmith:metal_shape/kill_next_tick 1t

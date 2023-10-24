@@ -1,1 +1,0 @@
-execute as @e[tag=voxelsmith.kill_next_tick] run function voxelsmith:metal_voxel/kill
