@@ -13,6 +13,7 @@ scoreboard players set #hammer_modes voxelsmith.hammer_mode 5
 scoreboard players set #-1 voxelsmith.value -1
 scoreboard players set #625 voxelsmith.value 625
 scoreboard players set #16 voxelsmith.value 16
+scoreboard players set #100000 voxelsmith.value 100000
 
 
 # Recipe Data
