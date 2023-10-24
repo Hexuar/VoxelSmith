@@ -4,9 +4,6 @@ scoreboard players set #tick5 voxelsmith.value 0
 execute as @e[type=item] if predicate voxelsmith:is_vanilla_ingot at @s align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=item_display,tag=voxelsmith.metal_shape,distance=..0.5,sort=nearest,limit=1] if block ~ ~-1 ~ anvil run function voxelsmith:start_smithing/vanilla
 execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{smithing_ingot:1b}}}}] at @s align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=item_display,tag=voxelsmith.metal_shape,distance=..0.5,sort=nearest,limit=1] if block ~ ~-1 ~ anvil run function voxelsmith:start_smithing/main
 
-# Kill ingots
-execute as @e[type=item_display,tag=voxelsmith.metal_shape] at @s unless block ~ ~-1 ~ anvil run function voxelsmith:metal_shape/kill
-
 # Display GUI
 execute as @a if predicate voxelsmith:holding_hammer at @s anchored eyes positioned ^ ^ ^0.5 run function voxelsmith:hammer/check_if_smithing
 

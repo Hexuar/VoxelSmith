@@ -17,8 +17,5 @@ scoreboard players set #100000 voxelsmith.value 100000
 
 
 # Recipe Data
-say Loading Recipes...
-
 data modify storage voxelsmith:smithing recipes set value []
-
 execute if score #load_recipes voxelsmith.value matches 1 run function #voxelsmith:load_recipes
