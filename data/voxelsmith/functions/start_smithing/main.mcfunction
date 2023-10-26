@@ -1,6 +1,9 @@
 execute store result score #count voxelsmith.value run data get entity @s Item.Count
 execute if score #count voxelsmith.value matches 9.. run return 0
 
+execute store result score #temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.temperature
+execute unless score #temperature voxelsmith.value matches 900.. run return 0
+
 data modify storage voxelsmith:data metal set from entity @s Item.tag.voxelsmith.block_item
 
 execute if block ~ ~-1 ~ anvil[facing=north] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 run function voxelsmith:metal_shape/summon

@@ -1,3 +1,6 @@
+# Hot Ingot
+execute as @e[type=item] if predicate voxelsmith:item/is_ingot if predicate voxelsmith:item/is_not_foreign at @s if block ~ ~-1 ~ magma_block run function voxelsmith:ground_recipes/hot_ingot
+
 
 # Iron
 
