@@ -7,8 +7,36 @@
     },
     "ops": [
       {
+        "source": "CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "voxelsmith:temperature"
+    },
+    "ops": [
+      {
         "source": "temperature",
         "target": "voxelsmith.temperature",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "voxelsmith:temperature"
+    },
+    "ops": [
+      {
+        "source": "timestamp",
+        "target": "voxelsmith.timestamp",
         "op": "replace"
       }
     ]
@@ -43,19 +71,5 @@
       ]
     ],
     "replace": true
-  },
-  {
-    "function": "minecraft:copy_nbt",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "voxelsmith:temperature"
-    },
-    "ops": [
-      {
-        "source": "timestamp",
-        "target": "voxelsmith.timestamp",
-        "op": "replace"
-      }
-    ]
   }
 ]

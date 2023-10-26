@@ -5,7 +5,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Item:{tag:{voxelsmith:{hot_ingot:1b}}}}"
+          "nbt": "{Item:{tag:{voxelsmith:{}}}}"
         }
       },
       {
