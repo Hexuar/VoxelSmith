@@ -3,7 +3,13 @@ execute store result score #temperature voxelsmith.value run data get entity @s 
 execute if score #temperature voxelsmith.value matches 0 run scoreboard players set #temperature voxelsmith.value 20
 
 # Increase item temperature
-execute if score #temperature voxelsmith.value matches ..1399 run scoreboard players add #temperature voxelsmith.value 1
+scoreboard players operation #limit_min voxelsmith.value = #min_temperature voxelsmith.value
+scoreboard players operation #limit_min voxelsmith.value -= #delta_temperature voxelsmith.value
+
+scoreboard players operation #limit_max voxelsmith.value = #max_temperature voxelsmith.value
+scoreboard players operation #limit_max voxelsmith.value -= #delta_temperature voxelsmith.value
+
+execute if score #temperature voxelsmith.value >= #limit_min voxelsmith.value if score #temperature voxelsmith.value <= #limit_max voxelsmith.value run scoreboard players operation #temperature voxelsmith.value += #delta_temperature voxelsmith.value
 
 # Custom Model Data
 scoreboard players set #CustomModelData voxelsmith.value 222180000
@@ -20,9 +26,3 @@ data modify entity @s Age set value 0s
 # Add timestamp
 execute store result score #current_timestamp voxelsmith.value run time query gametime
 execute store result entity @s Item.tag.voxelsmith.timestamp int 1 run scoreboard players get #current_timestamp voxelsmith.value
-
-# Effects
-execute store result score #play_sound voxelsmith.value run random value 0..10
-execute if score #play_sound voxelsmith.value matches 0 run playsound block.fire.ambient neutral @a ~ ~ ~
-particle flame ~ ~0.33 ~ 0.1 0.1 0.1 0.01 1 normal
-particle smoke ~ ~0.33 ~ 0.1 0.1 0.1 0.01 1

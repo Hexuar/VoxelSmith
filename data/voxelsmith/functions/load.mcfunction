@@ -14,7 +14,12 @@ scoreboard players set #-1 voxelsmith.value -1
 scoreboard players set #625 voxelsmith.value 625
 scoreboard players set #16 voxelsmith.value 16
 scoreboard players set #20 voxelsmith.value 20
+scoreboard players set #2000 voxelsmith.value 2000
 scoreboard players set #100000 voxelsmith.value 100000
+
+
+scoreboard players set #min_temperature voxelsmith.value 25
+scoreboard players set #max_temperature voxelsmith.value 1400
 
 
 # Recipe Data

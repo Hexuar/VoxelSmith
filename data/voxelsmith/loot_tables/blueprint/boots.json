@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:structure_block",
+            "name": "minecraft:command_block",
             "functions": [
               {
                 "function": "minecraft:set_name",
@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221821,voxelsmith:{blueprint:1b,boots_blueprint:1b}}"
+                "tag": "{CustomModelData:2221839,voxelsmith:{blueprint:1b,boots_blueprint:1b}}"
               },
               {
                 "function": "minecraft:set_nbt",
