@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221804,voxelsmith:{iron_hoe_head:1b}}"
+              "tag": "{CustomModelData:2221804,voxelsmith:{crafting_item:1b,iron_hoe_head:1b}}"
             }
           ]
         }

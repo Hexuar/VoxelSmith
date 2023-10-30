@@ -1,4 +1,4 @@
-scoreboard players set #delta_temperature voxelsmith.value 10
+scoreboard players operation #delta_temperature voxelsmith.value = #item_heating_speed voxelsmith.value
 function voxelsmith:ground_recipes/temperature/change_temperature
 
 # Effects

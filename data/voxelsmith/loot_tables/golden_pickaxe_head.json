@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221815,voxelsmith:{golden_pickaxe_head:1b}}"
+              "tag": "{CustomModelData:2221815,voxelsmith:{crafting_item:1b,golden_pickaxe_head:1b}}"
             }
           ]
         }

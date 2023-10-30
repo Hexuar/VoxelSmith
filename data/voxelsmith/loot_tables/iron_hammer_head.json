@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221807,voxelsmith:{iron_hammer_head:1b}}"
+              "tag": "{CustomModelData:2221807,voxelsmith:{crafting_item:1b,iron_hammer_head:1b}}"
             }
           ]
         }

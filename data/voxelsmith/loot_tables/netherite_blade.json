@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221820,voxelsmith:{netherite_blade:1b}}"
+              "tag": "{CustomModelData:2221820,voxelsmith:{crafting_item:1b,netherite_blade:1b}}"
             }
           ]
         }

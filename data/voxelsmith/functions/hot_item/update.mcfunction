@@ -1,5 +1,5 @@
 data modify storage voxelsmith:temperature slots set value []
-data modify storage voxelsmith:temperature slots append from entity @s Inventory[{tag:{voxelsmith:{hot:1b}}}].Slot
+data modify storage voxelsmith:temperature slots append from entity @s Inventory[{tag:{voxelsmith:{has_temperature:1b}}}].Slot
 
 execute store result score #length voxelsmith.value run data get storage voxelsmith:temperature slots
 scoreboard players set #index voxelsmith.value 0

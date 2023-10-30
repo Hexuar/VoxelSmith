@@ -1,6 +1,6 @@
 # Get item temperature
 execute store result score #temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.temperature
-execute if score #temperature voxelsmith.value matches 0 run scoreboard players set #temperature voxelsmith.value 20
+execute if score #temperature voxelsmith.value matches 0 run scoreboard players set #temperature voxelsmith.value 25
 
 # Increase item temperature
 scoreboard players operation #limit_min voxelsmith.value = #min_temperature voxelsmith.value
@@ -12,15 +12,16 @@ scoreboard players operation #limit_max voxelsmith.value -= #delta_temperature v
 execute if score #temperature voxelsmith.value >= #limit_min voxelsmith.value if score #temperature voxelsmith.value <= #limit_max voxelsmith.value run scoreboard players operation #temperature voxelsmith.value += #delta_temperature voxelsmith.value
 
 # Custom Model Data
-scoreboard players set #CustomModelData voxelsmith.value 222180000
-scoreboard players operation #CustomModelData voxelsmith.value += #temperature voxelsmith.value
-execute store result entity @s Item.tag.CustomModelData int 1 run scoreboard players get #CustomModelData voxelsmith.value
+execute store result score #no_temperature_model voxelsmith.value run data get entity @s Item.tag.voxelsmith.no_temperature_model
+execute if score #no_temperature_model voxelsmith.value matches 0 run scoreboard players set #CustomModelData voxelsmith.value 222180000
+execute if score #no_temperature_model voxelsmith.value matches 0 run scoreboard players operation #CustomModelData voxelsmith.value += #temperature voxelsmith.value
+execute if score #no_temperature_model voxelsmith.value matches 0 run execute store result entity @s Item.tag.CustomModelData int 1 run scoreboard players get #CustomModelData voxelsmith.value
 
 # Store item temperature
 execute store result entity @s Item.tag.voxelsmith.temperature int 1 run scoreboard players get #temperature voxelsmith.value
 
 # Add item tag & prevent despawn
-data modify entity @s Item.tag.voxelsmith.hot set value 1b
+data modify entity @s Item.tag.voxelsmith.has_temperature set value 1b
 data modify entity @s Age set value 0s
 
 # Add timestamp

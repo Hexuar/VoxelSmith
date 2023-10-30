@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221813,voxelsmith:{golden_shovel_head:1b}}"
+              "tag": "{CustomModelData:2221813,voxelsmith:{crafting_item:1b,golden_shovel_head:1b}}"
             }
           ]
         }

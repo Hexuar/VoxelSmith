@@ -9,6 +9,8 @@ scoreboard players operation #CustomModelData voxelsmith.value += #temperature v
 
 execute store result entity @s Item.tag.voxelsmith.metal_voxel.tag.CustomModelData int 1 run scoreboard players get #CustomModelData voxelsmith.value
 
+execute store result entity @s Item.tag.voxelsmith.metal_voxel.tag.voxelsmith.temperature int 1 run scoreboard players get #temperature voxelsmith.value
+
 data modify storage voxelsmith:data metal set from entity @s Item.tag.voxelsmith.metal
 data modify storage voxelsmith:data metal_voxel set from entity @s Item.tag.voxelsmith.metal_voxel
 

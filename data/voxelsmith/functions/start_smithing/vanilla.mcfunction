@@ -5,6 +5,10 @@ execute as @s[nbt={Item:{id:"minecraft:gold_ingot"}}] run function voxelsmith:st
 execute as @s[nbt={Item:{id:"minecraft:iron_ingot"}}] run function voxelsmith:start_smithing/vanilla/iron_ingot
 execute as @s[nbt={Item:{id:"minecraft:netherite_ingot"}}] run function voxelsmith:start_smithing/vanilla/netherite_ingot
 
-data remove entity @s Item.tag.voxelsmith.smithing_ingot
-data remove entity @s Item.tag.voxelsmith.metal
-data remove entity @s Item.tag.voxelsmith.metal_voxel
+execute store result score #has_temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.has_temperature
+
+execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.tag.voxelsmith.smithing_ingot
+execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.tag.voxelsmith.metal
+execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.tag.voxelsmith.metal_voxel
+
+execute if score #has_temperature voxelsmith.value matches 0 run data remove entity @s Item.tag.voxelsmith

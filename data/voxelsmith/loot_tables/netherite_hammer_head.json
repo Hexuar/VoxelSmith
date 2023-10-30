@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221827,voxelsmith:{netherite_hammer_head:1b}}"
+              "tag": "{CustomModelData:2221827,voxelsmith:{crafting_item:1b,netherite_hammer_head:1b}}"
             }
           ]
         }

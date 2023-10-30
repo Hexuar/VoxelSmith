@@ -17,7 +17,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221800,voxelsmith:{iron_blade:1b}}"
+              "tag": "{CustomModelData:2221800,voxelsmith:{crafting_item:1b,iron_blade:1b}}"
             }
           ]
         }
