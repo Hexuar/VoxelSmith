@@ -42,34 +42,17 @@
     ]
   },
   {
-    "function": "minecraft:set_lore",
-    "entity": "this",
-    "lore": [
-      [
-        {
-          "text": "Temperature: ",
-          "color": "gray",
-          "italic": false,
-          "extra": [
-            {
-              "score": {
-                "name": "#temperature",
-                "objective": "voxelsmith.value"
-              },
-              "color": "gray",
-              "italic": false,
-              "extra": [
-                {
-                  "text": "°C",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    ],
-    "replace": true
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "voxelsmith:temperature"
+    },
+    "ops": [
+      {
+        "source": "Lore",
+        "target": "display.Lore",
+        "op": "replace"
+      }
+    ]
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block",
+      "nbt": "{CustomModelData:222187100}"
+    },
+    "title": "Aaaaaand it's gone...",
+    "description": "Change the hammer mode by right clicking, then destroy a voxel by left clicking"
+  },
+  "parent": "voxelsmith:tutorial/hit_voxel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

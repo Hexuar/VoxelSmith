@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "voxelsmith:stone_hammer"
+        }
+      }
+    },
+    "rewards": {
+      "function": "voxelsmith:crafting/stone_hammer"
+    }
+  }
+  

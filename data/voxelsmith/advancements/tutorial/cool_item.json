@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": "Hot, Hot, Hot!",
+    "description": "Cool your Smithing Item in water"
+  },
+  "parent": "voxelsmith:tutorial/forge_item",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

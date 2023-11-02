@@ -1,14 +1,4 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:stone"
-      },
-      "title": "",
-      "description": "",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": false
-    },
     "criteria": {
       "criteria": {
         "trigger": "minecraft:recipe_crafted",

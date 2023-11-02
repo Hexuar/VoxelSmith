@@ -3,6 +3,9 @@ data remove entity @s attack
 scoreboard players operation #temp voxelsmith.value = @s voxelsmith.ingotID
 execute as @e[type=#voxelsmith:metal_shape_entities] if score @s voxelsmith.ingotID = #temp voxelsmith.value run tag @s add voxelsmith.current_ingot
 
+execute unless score #current_hammer_mode voxelsmith.hammer_mode matches 4 run advancement grant @p only voxelsmith:tutorial/hit_voxel
+execute if score #current_hammer_mode voxelsmith.hammer_mode matches 4 run advancement grant @p only voxelsmith:tutorial/destroy_voxel
+
 execute if score #current_hammer_mode voxelsmith.hammer_mode matches 0 run function voxelsmith:hammer/dir/forwards
 execute if score #current_hammer_mode voxelsmith.hammer_mode matches 1 run function voxelsmith:hammer/dir/right
 execute if score #current_hammer_mode voxelsmith.hammer_mode matches 2 run function voxelsmith:hammer/dir/back

@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221833,voxelsmith:{blueprint:1b,shovel_head_blueprint:1b}}"
+                "tag": "{CustomModelData:2221833,voxelsmith:{blueprint:1b,tool_blueprint:1b,shovel_head_blueprint:1b}}"
               },
               {
                 "function": "minecraft:set_nbt",

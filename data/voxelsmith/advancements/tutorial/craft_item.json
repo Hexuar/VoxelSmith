@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": "What a Journey",
+    "description": "Finally craft your long awaited item by throwing your cooled Smithing Item onto an anvil with some sticks"
+  },
+  "parent": "voxelsmith:tutorial/cool_item",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221829,voxelsmith:{blueprint:1b,crossguard_blueprint:1b}}"
+                "tag": "{CustomModelData:2221829,voxelsmith:{blueprint:1b,sword_blueprint:1b,crossguard_blueprint:1b}}"
               },
               {
                 "function": "minecraft:set_nbt",

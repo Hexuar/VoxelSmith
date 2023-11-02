@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block",
+      "nbt": "{CustomModelData:222187000}"
+    },
+    "title": "They Move?!",
+    "description": "Move a voxel by left clicking"
+  },
+  "parent": "voxelsmith:tutorial/anvil",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

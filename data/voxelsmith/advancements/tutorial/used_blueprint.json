@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:structure_block",
+      "nbt": "{CustomModelData:2221800}"
+    },
+    "title": "Oh, so that's how it works",
+    "description": "Throw a Blueprint onto an Anvil with Hot Metal"
+  },
+  "parent": "voxelsmith:tutorial/armor_blueprint",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

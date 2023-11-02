@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " P ",
+      " SP",
+      "S  "
+    ],
+    "key": {
+      "P": {
+        "tag": "minecraft:stone_tool_materials"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }
+  

@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221839,voxelsmith:{blueprint:1b,boots_blueprint:1b}}"
+                "tag": "{CustomModelData:2221839,voxelsmith:{blueprint:1b,armor_blueprint:1b,boots_blueprint:1b}}"
               },
               {
                 "function": "minecraft:set_nbt",

@@ -1,3 +1,5 @@
+advancement grant @a[distance=..4] only voxelsmith:tutorial/used_blueprint
+
 scoreboard players set #index voxelsmith.value 0
 execute store result score #length voxelsmith.value run data get entity @s Item.tag.voxelsmith.shape
 

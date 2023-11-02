@@ -16,6 +16,31 @@
               }
             },
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Combine With:",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "1 Golden Pommel",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Golden Crossguard",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": "1 Stick",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:2221810,voxelsmith:{crafting_item:1b,golden_blade:1b}}"
             }

@@ -27,7 +27,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221835,voxelsmith:{blueprint:1b,hammer_head_blueprint:1b}}"
+                "tag": "{CustomModelData:2221835,voxelsmith:{blueprint:1b,tool_blueprint:1b,hammer_head_blueprint:1b}}"
               },
               {
                 "function": "minecraft:set_nbt",

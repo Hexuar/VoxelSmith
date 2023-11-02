@@ -1,9 +1,15 @@
-# Get temperature and timestamp
-$execute store result score #timestamp voxelsmith.value run data get entity @s Inventory[{Slot:$(slot)b}].tag.voxelsmith.timestamp
-$execute store result score #temperature voxelsmith.value run data get entity @s Inventory[{Slot:$(slot)b}].tag.voxelsmith.temperature
-$execute store result score #no_temperature_model voxelsmith.value run data get entity @s Inventory[{Slot:$(slot)b}].tag.voxelsmith.no_temperature_model
-$execute store result score #CustomModelData voxelsmith.value run data get entity @s Inventory[{Slot:$(slot)b}].tag.CustomModelData
+# Get current item
+$data modify storage voxelsmith:temperature CurrentItem set from entity @s Inventory[{Slot:$(slot)b}]
 
+# Get Values
+execute store result score #timestamp voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.voxelsmith.timestamp
+execute store result score #temperature voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.voxelsmith.temperature
+execute store result score #no_temperature_model voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.voxelsmith.crafting_item
+execute store result score #CustomModelData voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.CustomModelData
+execute store success score #hasLore voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.display.Lore
+execute store success score #storeLore voxelsmith.value run data get storage voxelsmith:temperature CurrentItem.tag.voxelsmith.Lore
+
+data modify storage voxelsmith:temperature Lore set from storage voxelsmith:temperature CurrentItem.tag.display.Lore
 
 # Check if updating is necessary
 scoreboard players set #continue voxelsmith.value 0
@@ -34,4 +40,13 @@ execute store result storage voxelsmith:temperature temperature int 1 run scoreb
 execute store result storage voxelsmith:temperature timestamp int 1 run scoreboard players get #stored_timestamp voxelsmith.value
 execute store result storage voxelsmith:temperature CustomModelData int 1 run scoreboard players get #CustomModelData voxelsmith.value
 
+
+execute if score #storeLore voxelsmith.value matches 0 if score #hasLore voxelsmith.value matches 0 run data modify storage voxelsmith:temperature Lore set value []
+$execute if score #storeLore voxelsmith.value matches 0 run item modify entity @s container.$(slot) voxelsmith:store_original_lore
+
+data modify storage voxelsmith:temperature Lore set from storage voxelsmith:temperature CurrentItem.tag.voxelsmith.Lore
 $execute if score #continue voxelsmith.value matches 1 run item modify entity @s container.$(slot) voxelsmith:hot_item
+
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches ..100 run item modify entity @s container.$(slot) voxelsmith:add_temperature/low
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 100..900 run item modify entity @s container.$(slot) voxelsmith:add_temperature/medium
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 900.. run item modify entity @s container.$(slot) voxelsmith:add_temperature/high

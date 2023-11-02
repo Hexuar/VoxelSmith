@@ -2,11 +2,11 @@ scoreboard players set #voxel.x voxelsmith.value 0
 scoreboard players set #voxel.y voxelsmith.value 0
 scoreboard players set #voxel.z voxelsmith.value 0
 
+advancement grant @a[distance=..4] only voxelsmith:tutorial/start_smithing
+
 function voxelsmith:metal_shape/set_size
 
-
 execute align xyz summon marker run function voxelsmith:metal_shape/get_origin
-
 
 summon item_display ~ ~ ~ {Tags:["voxelsmith.metal_shape"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}
 data modify entity @e[type=item_display,tag=voxelsmith.metal_shape,sort=nearest,limit=1] item set from storage voxelsmith:data metal

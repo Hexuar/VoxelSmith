@@ -16,6 +16,21 @@
               }
             },
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Combine With:",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "2 Sticks",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ]
+            },
+            {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:2221807,voxelsmith:{crafting_item:1b,iron_hammer_head:1b}}"
             }

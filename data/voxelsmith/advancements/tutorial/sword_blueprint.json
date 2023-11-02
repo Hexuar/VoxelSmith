@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:command_block",
+        "nbt": "{CustomModelData:2221830}"
+      },
+      "title": "Sketchier",
+      "description": "Make Sword Part Blueprints by throwing 3 Paper, 3 Ink Sacs and a Wooden Sword on a Crafting Table"
+    },
+    "parent": "voxelsmith:tutorial/tool_blueprint",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{voxelsmith:{sword_blueprint:1b}}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  
