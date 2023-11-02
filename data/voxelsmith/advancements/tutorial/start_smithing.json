@@ -7,7 +7,7 @@
     "title": "Hot Voxels!",
     "description": "Throw your hot ingot onto an anvil"
   },
-  "parent": "voxelsmith:tutorial/hot_ingot",
+  "parent": "voxelsmith:tutorial/tongs",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

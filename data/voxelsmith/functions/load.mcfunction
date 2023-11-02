@@ -26,4 +26,4 @@ scoreboard players set #max_temperature voxelsmith.value 1400
 
 # Recipe Data
 data modify storage voxelsmith:smithing recipes set value []
-execute if score #load_recipes voxelsmith.value matches 1 run function #voxelsmith:load_recipes
+function #voxelsmith:load_recipes

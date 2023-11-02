@@ -2,7 +2,7 @@
     "display": {
       "icon": {
         "item": "minecraft:iron_sword",
-        "nbt": "{CustomModelData:2221804}"
+        "nbt": "{CustomModelData:2221800}"
       },
       "title": "Voxelsmith",
       "description": "Realistic smithing in Minecraft!",

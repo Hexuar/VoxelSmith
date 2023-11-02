@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword",
+      "nbt": "{CustomModelData:2221801}"
+    },
+    "title": "Safety First!",
+    "description": "Craft a pair of wooden tongs to hold in your offhand, so you can keep hot items from burning your skin"
+  },
+  "parent": "voxelsmith:tutorial/hot_ingot",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{voxelsmith:{wooden_tongs:1b}}"
+          }
+        ]
+      }
+    }
+  }
+}
