@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221801,HideFlags:2,voxelsmith:{hammer:1b,wooden_hammer:1b}}"
+              "tag": "{CustomModelData:2221800,HideFlags:2,voxelsmith:{hammer:1b,wooden_hammer:1b}}"
             },
             {
               "function": "minecraft:set_attributes",

@@ -22,8 +22,8 @@ scoreboard players operation #delta_temperature voxelsmith.value /= #20 voxelsmi
 
 # Reduce temperature by temperature difference
 execute if score #continue voxelsmith.value matches 1 run scoreboard players operation #temperature voxelsmith.value -= #delta_temperature voxelsmith.value
-execute if score #temperature voxelsmith.value < #delta_temperature voxelsmith.value run scoreboard players set #temperature voxelsmith.value 25
-execute if score #temperature voxelsmith.value matches ..24 run scoreboard players set #temperature voxelsmith.value 25
+execute if score #temperature voxelsmith.value < #delta_temperature voxelsmith.value run scoreboard players operation #temperature voxelsmith.value = #min_temperature voxelsmith.value
+execute if score #temperature voxelsmith.value matches ..24 run scoreboard players operation #temperature voxelsmith.value = #min_temperature voxelsmith.value
 
 # Custom Model Data
 execute if score #no_temperature_model voxelsmith.value matches 0 run scoreboard players set #CustomModelData voxelsmith.value 222180000
@@ -33,7 +33,7 @@ execute if score #no_temperature_model voxelsmith.value matches 0 run execute st
 
 # Reset timestamp at 25°C
 execute if score #continue voxelsmith.value matches 1 run scoreboard players operation #stored_timestamp voxelsmith.value = #current_timestamp voxelsmith.value
-execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 25 run scoreboard players set #stored_timestamp voxelsmith.value 0
+execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value = #min_temperature voxelsmith.value run scoreboard players set #stored_timestamp voxelsmith.value 0
 
 # Store data
 execute store result storage voxelsmith:temperature temperature int 1 run scoreboard players get #temperature voxelsmith.value
@@ -47,6 +47,7 @@ $execute if score #storeLore voxelsmith.value matches 0 run item modify entity @
 data modify storage voxelsmith:temperature Lore set from storage voxelsmith:temperature CurrentItem.tag.voxelsmith.Lore
 $execute if score #continue voxelsmith.value matches 1 run item modify entity @s container.$(slot) voxelsmith:hot_item
 
-$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches ..100 run item modify entity @s container.$(slot) voxelsmith:add_temperature/low
-$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 100..900 run item modify entity @s container.$(slot) voxelsmith:add_temperature/medium
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches ..39 run item modify entity @s container.$(slot) voxelsmith:add_temperature/very_low
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 40..99 run item modify entity @s container.$(slot) voxelsmith:add_temperature/low
+$execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 100..899 run item modify entity @s container.$(slot) voxelsmith:add_temperature/medium
 $execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 900.. run item modify entity @s container.$(slot) voxelsmith:add_temperature/high

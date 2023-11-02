@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Hammer",
+                "text": "Iron Tongs",
                 "italic": false
               }
             },
@@ -26,7 +26,7 @@
                   "italic": false
                 },
                 {
-                  "text": " 5 Attack Damage",
+                  "text": " 2 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -39,7 +39,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221800,HideFlags:2,voxelsmith:{hammer:1b,iron_hammer:1b}}"
+              "tag": "{CustomModelData:2221801,HideFlags:2,voxelsmith:{tongs:1b,iron_tongs:1b}}"
             },
             {
               "function": "minecraft:set_attributes",
@@ -54,7 +54,7 @@
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "",
-                  "amount": 4,
+                  "amount": 1,
                   "operation": "addition",
                   "slot": "mainhand"
                 }

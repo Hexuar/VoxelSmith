@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "voxelsmith:wooden_tongs"
+        }
+      }
+    },
+    "rewards": {
+      "function": "voxelsmith:crafting/wooden_tongs"
+    }
+  }
+  

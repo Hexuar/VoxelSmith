@@ -16,6 +16,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:leather_helmet",Count:1b}}] at 
 execute as @e[type=item,nbt={Item:{id:"minecraft:leather_chestplate",Count:1b}}] at @s if block ~ ~-1 ~ crafting_table as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b}},sort=nearest,limit=1] as @e[type=item,nbt={Item:{id:"minecraft:ink_sac",Count:1b}},sort=nearest,limit=1] run function voxelsmith:ground_recipes/blueprint/chestplate
 execute as @e[type=item,nbt={Item:{id:"minecraft:leather_leggings",Count:1b}}] at @s if block ~ ~-1 ~ crafting_table as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b}},sort=nearest,limit=1] as @e[type=item,nbt={Item:{id:"minecraft:ink_sac",Count:1b}},sort=nearest,limit=1] run function voxelsmith:ground_recipes/blueprint/leggings
 execute as @e[type=item,nbt={Item:{id:"minecraft:leather_boots",Count:1b}}] at @s if block ~ ~-1 ~ crafting_table as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b}},sort=nearest,limit=1] as @e[type=item,nbt={Item:{id:"minecraft:ink_sac",Count:1b}},sort=nearest,limit=1] run function voxelsmith:ground_recipes/blueprint/boots
+execute as @e[type=item,nbt={Item:{Count:1b,tag:{voxelsmith:{wooden_tongs:1b}}}}] at @s if block ~ ~-1 ~ crafting_table as @e[type=item,nbt={Item:{id:"minecraft:paper",Count:1b}},sort=nearest,limit=1] as @e[type=item,nbt={Item:{id:"minecraft:ink_sac",Count:1b}},sort=nearest,limit=1] run function voxelsmith:ground_recipes/blueprint/tongs
 
 
 # Iron
