@@ -19,7 +19,7 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "Requires 2 Iron Ingots",
+                    "text": "Requires 2 Ingots",
                     "color": "gray",
                     "italic": false
                   }

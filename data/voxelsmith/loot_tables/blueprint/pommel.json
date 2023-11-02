@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "text": "Requires 1 Iron Ingot",
+                  "text": "Requires 1 Ingot",
                   "color": "gray",
                   "italic": false
                 }
