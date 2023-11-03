@@ -5,7 +5,18 @@
       "nbt": "{CustomModelData:2221800}"
     },
     "title": "Stop, hammertime!",
-    "description": "Craft a wooden hammer"
+    "description": [
+      {
+        "text": "\u0041\n\n\n\n\n\n\n\n",
+        "font": "voxelsmith:recipes",
+        "color": "white"
+      },
+      {
+        "text": "Craft a wooden hammer",
+        "font": "minecraft:default",
+        "color": "green"
+      }
+    ]
   },
   "parent": "voxelsmith:tutorial/root",
   "criteria": {

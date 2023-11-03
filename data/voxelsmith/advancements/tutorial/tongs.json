@@ -5,7 +5,18 @@
       "nbt": "{CustomModelData:2221801}"
     },
     "title": "Safety First!",
-    "description": "Craft a pair of wooden tongs to hold in your offhand, so you can keep hot items from burning your skin"
+    "description": [
+      {
+        "text": "\u0042\n\n\n\n\n\n\n\n",
+        "font": "voxelsmith:recipes",
+        "color": "white"
+      },
+      {
+        "text": "Craft a pair of wooden tongs to hold in your offhand, so you can keep hot items from burning your skin",
+        "font": "minecraft:default",
+        "color": "green"
+      }
+    ]
   },
   "parent": "voxelsmith:tutorial/hot_ingot",
   "criteria": {

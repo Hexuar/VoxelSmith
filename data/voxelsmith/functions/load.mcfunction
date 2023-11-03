@@ -19,7 +19,7 @@ scoreboard players set #100000 voxelsmith.value 100000
 
 # Global variables
 scoreboard players set #item_cooling_speed voxelsmith.value 10
-scoreboard players set #item_heating_speed voxelsmith.value 10
+scoreboard players set #item_heating_speed voxelsmith.value 1
 scoreboard players set #min_temperature voxelsmith.value 25
 scoreboard players set #max_temperature voxelsmith.value 1400
 

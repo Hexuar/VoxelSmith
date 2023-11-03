@@ -4,7 +4,7 @@ function voxelsmith:ground_recipes/temperature/change_temperature
 
 execute as @s[nbt={Item:{tag:{voxelsmith:{crafting_item:1b}}}}] if score #temperature voxelsmith.value matches ..40 run data modify entity @s Item.tag.voxelsmith.too_hot set value 0b
 
-advancement grant @a[distance=..4] only voxelsmith:tutorial/cool_item
+advancement grant @p[distance=..4] only voxelsmith:tutorial/cool_item
 
 # Effects
 execute store result score #play_sound voxelsmith.value run random value 0..1

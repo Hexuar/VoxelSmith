@@ -8,8 +8,6 @@ execute if score #index voxelsmith.value >= #length voxelsmith.value run return 
     scoreboard players operation #pos.y voxelsmith.value /= #16 voxelsmith.value
     scoreboard players operation #pos.z voxelsmith.value /= #16 voxelsmith.value
 
-    #tellraw Hexuar {"score":{"name": "#pos.x","objective": "voxelsmith.value"}}
-
     data modify storage voxelsmith:data temp set value {}
     execute store result storage voxelsmith:data temp.x float 0.001 run scoreboard players get #pos.x voxelsmith.value
     execute store result storage voxelsmith:data temp.y float 0.001 run scoreboard players get #pos.y voxelsmith.value

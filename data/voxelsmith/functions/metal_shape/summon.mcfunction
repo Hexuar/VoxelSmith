@@ -2,7 +2,7 @@ scoreboard players set #voxel.x voxelsmith.value 0
 scoreboard players set #voxel.y voxelsmith.value 0
 scoreboard players set #voxel.z voxelsmith.value 0
 
-advancement grant @a[distance=..4] only voxelsmith:tutorial/start_smithing
+advancement grant @p[distance=..4] only voxelsmith:tutorial/start_smithing
 
 function voxelsmith:metal_shape/set_size
 
