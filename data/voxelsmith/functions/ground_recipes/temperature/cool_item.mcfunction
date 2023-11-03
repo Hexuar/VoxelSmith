@@ -8,5 +8,5 @@ advancement grant @p[distance=..4] only voxelsmith:tutorial/cool_item
 
 # Effects
 execute store result score #play_sound voxelsmith.value run random value 0..1
-execute if score #temperature voxelsmith.value matches 40.. if score #play_sound voxelsmith.value matches 0 run playsound block.lava.extinguish neutral @a ~ ~ ~
+execute if score #temperature voxelsmith.value matches 40.. if score #play_sound voxelsmith.value matches 0 run playsound block.lava.extinguish block @a ~ ~ ~
 execute if score #temperature voxelsmith.value matches 40.. run particle campfire_cosy_smoke ~ ~0.4 ~ 0 0 0 0.05 5
