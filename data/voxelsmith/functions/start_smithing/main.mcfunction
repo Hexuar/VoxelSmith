@@ -1,6 +1,6 @@
 execute store result score #count voxelsmith.value run data get entity @s Item.Count
-execute if score #count voxelsmith.value matches 9.. run title @p[distance=..5] actionbar {"text":"Too much metal, maximum stack size is 8","color":"red"}
-execute if score #count voxelsmith.value matches 9.. run return 0
+execute if score #count voxelsmith.value matches 16.. run title @p[distance=..5] actionbar {"text":"Too much metal, maximum stack size is 8","color":"red"}
+execute if score #count voxelsmith.value matches 16.. run return 0
 
 execute store result score #temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.temperature
 execute unless score #temperature voxelsmith.value matches 900.. run title @p[distance=..5] actionbar {"text":"Metal is too cold, heat on a magma block first.","color":"red"}

@@ -6,3 +6,10 @@ execute if score #count voxelsmith.value matches 5 run function voxelsmith:metal
 execute if score #count voxelsmith.value matches 6 run function voxelsmith:metal_shape/set_size/6
 execute if score #count voxelsmith.value matches 7 run function voxelsmith:metal_shape/set_size/7
 execute if score #count voxelsmith.value matches 8 run function voxelsmith:metal_shape/set_size/8
+execute if score #count voxelsmith.value matches 9 run function voxelsmith:metal_shape/set_size/9
+execute if score #count voxelsmith.value matches 10 run function voxelsmith:metal_shape/set_size/10
+execute if score #count voxelsmith.value matches 11 run function voxelsmith:metal_shape/set_size/11
+execute if score #count voxelsmith.value matches 12 run function voxelsmith:metal_shape/set_size/12
+execute if score #count voxelsmith.value matches 13 run function voxelsmith:metal_shape/set_size/13
+execute if score #count voxelsmith.value matches 14 run function voxelsmith:metal_shape/set_size/14
+execute if score #count voxelsmith.value matches 15 run function voxelsmith:metal_shape/set_size/15

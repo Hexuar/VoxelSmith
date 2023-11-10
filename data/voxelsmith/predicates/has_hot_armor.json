@@ -1,0 +1,50 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "nbt": "{voxelsmith:{has_temperature:1b}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "legs": {
+              "nbt": "{voxelsmith:{has_temperature:1b}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "nbt": "{voxelsmith:{has_temperature:1b}}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "nbt": "{voxelsmith:{has_temperature:1b}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+  
