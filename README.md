@@ -14,4 +14,4 @@ Throw your heated ingot on an anvil, craft yourself a hammer and a blueprint and
 Throw your smithed item into water to cool it down.
 
 ### Advancements
-The advancements will guide you through your journey in becoming a master blacksmith!
+The in-game advancements will guide you through your journey in becoming a master blacksmith!
