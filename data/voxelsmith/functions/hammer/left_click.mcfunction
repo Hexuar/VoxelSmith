@@ -1,7 +1,7 @@
 advancement revoke @s only voxelsmith:left_click_metal_voxel
 
-playsound block.anvil.step player @a ~ ~ ~ 1 1
-playsound block.anvil.place player @a ~ ~ ~ 0.1 1
+execute store result storage voxelsmith:data pitch float 0.01 run random value 90..100
+function voxelsmith:hammer/playsound with storage voxelsmith:data
 
 execute store result score #use_durability voxelsmith.value run random value 0..1
 execute if entity @s[gamemode=!creative] if score #use_durability voxelsmith.value matches 1 run function voxelsmith:durability/damage_item

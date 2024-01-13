@@ -1,4 +1,5 @@
-data modify entity @s Item.tag.voxelsmith.metal set value {id:"minecraft:iron_ingot",Count:1b}
-data modify entity @s Item.tag.voxelsmith.metal_voxel set value {id:"minecraft:iron_block",Count:1b,tag:{CustomModelData:222180000}}
+data modify storage voxelsmith:data metal set value {id:"minecraft:iron_ingot",Count:1b}
+data modify storage voxelsmith:data colorPalette set value [15921906,15527148,15395562,15132390,14737632,14474460,14079702,13750223,12698049,12171705,11645104]
+
 
 function voxelsmith:start_smithing/main
