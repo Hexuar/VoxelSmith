@@ -1,0 +1,1 @@
+$execute store result storage voxelsmith:data colorIndex int 1 run random value 0..$(colorPaletteLength)

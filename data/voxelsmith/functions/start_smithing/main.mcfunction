@@ -5,12 +5,15 @@ execute if score #count voxelsmith.value matches 16.. run return 0
 
 # Temperature check
 execute store result score #temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.temperature
-execute unless score #temperature voxelsmith.value matches 900.. run title @p[distance=..5] actionbar {"text":"Metal is too cold, heat on a magma block first.","color":"red"}
-execute unless score #temperature voxelsmith.value matches 900.. run return 0
+execute unless score #temperature voxelsmith.value matches 800.. run title @p[distance=..5] actionbar {"text":"Metal is too cold, heat on a magma block first.","color":"red"}
+execute unless score #temperature voxelsmith.value matches 800.. run return 0
 
-execute store result score #CustomModelData voxelsmith.value run data get entity @s Item.tag.voxelsmith.metal_voxel.tag.CustomModelData
-scoreboard players operation #CustomModelData voxelsmith.value += #temperature voxelsmith.value
+# Store Color Palette Length
+execute store result score #colorPaletteLength voxelsmith.value run data get storage voxelsmith:data colorPalette
+scoreboard players remove #colorPaletteLength voxelsmith.value 1
+execute store result storage voxelsmith:data colorPaletteLength int 1 run scoreboard players get #colorPaletteLength voxelsmith.value
 
+# Pass metal
 data modify storage voxelsmith:data metal set from entity @s Item.tag.voxelsmith.metal
 
 execute if block ~ ~-1 ~ anvil[facing=north] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 run function voxelsmith:metal_shape/summon

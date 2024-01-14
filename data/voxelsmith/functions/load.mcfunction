@@ -17,6 +17,9 @@ scoreboard players set #20 voxelsmith.value 20
 scoreboard players set #2000 voxelsmith.value 2000
 scoreboard players set #100000 voxelsmith.value 100000
 
+scoreboard players set #256 voxelsmith.value 256
+scoreboard players set #65536 voxelsmith.value 65536
+
 # Global variables
 scoreboard players set #item_cooling_speed voxelsmith.value 50
 scoreboard players set #item_heating_speed voxelsmith.value 5
