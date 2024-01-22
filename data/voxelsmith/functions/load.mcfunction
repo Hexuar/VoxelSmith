@@ -11,6 +11,7 @@ scoreboard objectives add voxelsmith.pos.z dummy
 # Values
 scoreboard players set #hammer_modes voxelsmith.hammer_mode 5
 scoreboard players set #-1 voxelsmith.value -1
+scoreboard players set #2 voxelsmith.value 2
 scoreboard players set #625 voxelsmith.value 625
 scoreboard players set #16 voxelsmith.value 16
 scoreboard players set #20 voxelsmith.value 20
@@ -25,6 +26,9 @@ scoreboard players set #item_cooling_speed voxelsmith.value 50
 scoreboard players set #item_heating_speed voxelsmith.value 5
 scoreboard players set #min_temperature voxelsmith.value 25
 scoreboard players set #max_temperature voxelsmith.value 1400
+
+# Random Color
+data modify storage voxelsmith:data colorPalette set value [15921906,15527148,15395562,15132390,14737632,14474460,14079702,13750223,12698049,12171705,11645104]
 
 
 # Recipe Data

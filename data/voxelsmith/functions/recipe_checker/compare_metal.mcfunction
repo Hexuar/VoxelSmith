@@ -1,1 +1,1 @@
-execute store success score #bool voxelsmith.value run data modify storage voxelsmith:input metal set from entity @s item
+execute store success score #bool voxelsmith.value run data modify storage voxelsmith:input metal set from entity @s data.metal

@@ -23,5 +23,5 @@ execute unless score @s voxelsmith.pos.x matches 0..15 run function voxelsmith:m
 execute unless score @s voxelsmith.pos.y matches 0..15 run function voxelsmith:metal_voxel/kill
 execute unless score @s voxelsmith.pos.z matches 0..15 run function voxelsmith:metal_voxel/kill
 
-execute as @e[type=item_display,tag=voxelsmith.current_ingot,tag=voxelsmith.metal_shape] run function voxelsmith:metal_shape/store_data
+execute as @e[type=marker,tag=voxelsmith.current_ingot,tag=voxelsmith.metal_shape] run function voxelsmith:metal_shape/store_data
 tag @e remove voxelsmith.current_ingot
