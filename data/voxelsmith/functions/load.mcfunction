@@ -33,4 +33,5 @@ data modify storage voxelsmith:data colorPalette set value [15921906,15527148,15
 
 # Recipe Data
 data modify storage voxelsmith:smithing recipes set value []
+data modify storage voxelsmith:smithing ground_recipes set value []
 function #voxelsmith:load_recipes
