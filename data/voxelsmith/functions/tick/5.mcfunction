@@ -4,9 +4,6 @@ scoreboard players set #tick5 voxelsmith.value 0
 execute as @e[type=item] if predicate voxelsmith:item/is_ingot if predicate voxelsmith:item/is_not_foreign at @s align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=marker,tag=voxelsmith.metal_shape,distance=..0.5,sort=nearest,limit=1] if block ~ ~-1 ~ anvil run function voxelsmith:start_smithing/vanilla
 execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{smithing_ingot:1b}}}}] at @s align xyz positioned ~0.5 ~ ~0.5 unless entity @e[type=marker,tag=voxelsmith.metal_shape,distance=..0.5,sort=nearest,limit=1] if block ~ ~-1 ~ anvil run function voxelsmith:start_smithing/main
 
-# Display GUI
-execute as @a if predicate voxelsmith:holding_hammer at @s anchored eyes positioned ^ ^ ^0.5 run function voxelsmith:hammer/check_if_smithing
-
 # Blueprints
 execute as @e[type=item,nbt={Item:{tag:{voxelsmith:{blueprint:1b}}}},tag=!voxelsmith.blueprint.used] at @s if block ~ ~-1 ~ anvil align xyz if entity @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] unless entity @e[type=item_display,tag=voxelsmith.blueprint_voxel,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run function voxelsmith:blueprints/summon_shape
 
