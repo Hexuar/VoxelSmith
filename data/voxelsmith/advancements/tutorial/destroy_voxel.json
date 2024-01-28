@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_block",
-      "nbt": "{CustomModelData:222187100}"
+      "item": "minecraft:iron_block"
     },
     "title": "Aaaaaand it's gone...",
     "description": "Destroy a voxel by right clicking it with a hammer"
