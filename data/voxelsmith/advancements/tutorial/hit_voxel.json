@@ -5,7 +5,7 @@
       "nbt": "{CustomModelData:222187000}"
     },
     "title": "They Move?!",
-    "description": "Move a voxel by left clicking"
+    "description": "Move a voxel by left clicking it with a hammer. Sneaking moves it backwards"
   },
   "parent": "voxelsmith:tutorial/anvil",
   "criteria": {
