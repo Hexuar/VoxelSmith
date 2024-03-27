@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:anvil"
+      "id": "minecraft:anvil"
     },
     "title": "The Blacksmith's Friend",
     "description": "Obtain an Anvil"

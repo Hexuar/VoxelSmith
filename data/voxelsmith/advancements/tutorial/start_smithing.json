@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_block",
-      "nbt": "{CustomModelData:222186900}"
+      "id": "minecraft:iron_block"
     },
     "title": "Hot Voxels!",
     "description": "Throw your hot ingot onto an anvil"

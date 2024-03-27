@@ -1,24 +1,23 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:command_block",
-        "nbt": "{CustomModelData:2221837}"
-      },
-      "title": "Sketchiest",
-      "description": "Make an Armor Blueprint by Throwing 1 Paper, 1 Ink Sac and a Leather Armor Piece on a Crafting Table"
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:custom_model_data": 2221837
+      }
     },
-    "parent": "voxelsmith:tutorial/sword_blueprint",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "nbt": "{voxelsmith:{armor_blueprint:1b}}"
-            }
-          ]
-        }
+    "title": "Sketchiest",
+    "description": "Make an Armor Blueprint by Throwing 1 Paper, 1 Ink Sac and a Leather Armor Piece on a Crafting Table"
+  },
+  "parent": "voxelsmith:tutorial/sword_blueprint",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {}
+        ]
       }
     }
   }
-  
+}

@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_ingot",
-      "nbt": "{CustomModelData:222180900}"
+      "id": "minecraft:iron_ingot",
+        "components": {
+          "minecraft:custom_model_data": 222180900
+        }
     },
     "title": "It's Getting Hot In Here!",
     "description": "Let an ingot reach 900°C"

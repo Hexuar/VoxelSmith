@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:magma_block"
+      "id": "minecraft:magma_block"
     },
     "title": "The Forge",
     "description": "Throw an ingot on a magma block"

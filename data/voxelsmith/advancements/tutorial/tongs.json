@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:wooden_sword",
-      "nbt": "{CustomModelData:2221801}"
+      "id": "minecraft:wooden_sword",
+        "components": {
+          "minecraft:custom_model_data": 2221801
+        }
     },
     "title": "Safety First!",
     "description": [

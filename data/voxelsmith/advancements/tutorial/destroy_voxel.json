@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_block"
+      "id": "minecraft:iron_block"
     },
     "title": "Aaaaaand it's gone...",
     "description": "Destroy a voxel by right clicking it with a hammer"
