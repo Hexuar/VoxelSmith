@@ -1,11 +1,11 @@
 advancement grant @p[distance=..4] only voxelsmith:tutorial/used_blueprint
 
 scoreboard players set #index voxelsmith.value 0
-execute store result score #length voxelsmith.value run data get entity @s Item.tag.voxelsmith.shape
+execute store result score #length voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.shape
 
-execute store result score #origin.x voxelsmith.value run data get entity @s Item.tag.voxelsmith.origin.x 1000
-execute store result score #origin.y voxelsmith.value run data get entity @s Item.tag.voxelsmith.origin.y 1000
-execute store result score #origin.z voxelsmith.value run data get entity @s Item.tag.voxelsmith.origin.z 1000
+execute store result score #origin.x voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.origin.x 1000
+execute store result score #origin.y voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.origin.y 1000
+execute store result score #origin.z voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.origin.z 1000
 
 scoreboard players operation #origin.x voxelsmith.value /= #16 voxelsmith.value
 scoreboard players operation #origin.y voxelsmith.value /= #16 voxelsmith.value

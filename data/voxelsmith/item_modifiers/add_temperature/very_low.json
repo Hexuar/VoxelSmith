@@ -1,33 +1,33 @@
 [
-    {
-        "function": "minecraft:set_lore",
-        "entity": "this",
-        "lore": [
-          [
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Temperature: ",
+          "color": "gray",
+          "italic": false,
+          "extra": [
             {
-              "text": "Temperature: ",
+              "score": {
+                "name": "#temperature",
+                "objective": "voxelsmith.value"
+              },
               "color": "gray",
               "italic": false,
               "extra": [
                 {
-                  "score": {
-                    "name": "#temperature",
-                    "objective": "voxelsmith.value"
-                  },
+                  "text": "°C",
                   "color": "gray",
-                  "italic": false,
-                  "extra": [
-                    {
-                      "text": "°C",
-                      "color": "gray",
-                      "italic": false
-                    }
-                  ]
+                  "italic": false
                 }
               ]
             }
           ]
-        ],
-        "replace": false
-      }
+        }
+      ]
+    ],
+    "mode": "replace_section"
+  }
 ]

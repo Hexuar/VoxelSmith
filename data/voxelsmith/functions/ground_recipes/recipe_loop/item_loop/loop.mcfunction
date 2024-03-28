@@ -2,7 +2,7 @@ execute if score #j voxelsmith.value > #items voxelsmith.value run function voxe
 execute if score #j voxelsmith.value > #items voxelsmith.value run return 1
 
 # Temperature Check
-execute store result score #temperature voxelsmith.value run data get entity @s Item.tag.voxelsmith.temperature
+execute store result score #temperature voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.temperature
 execute if score #temperature voxelsmith.value matches 60.. run function voxelsmith:ground_recipes/failed
 execute if score #temperature voxelsmith.value matches 60.. run return 0
 
