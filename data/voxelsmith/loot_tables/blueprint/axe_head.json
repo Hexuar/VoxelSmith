@@ -1,46 +1,239 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:command_block",
-            "functions": [
-              {
-                "function": "minecraft:set_name",
-                "name": {
-                  "text": "Axe Head Blueprint",
-                  "italic": false,
-                  "color": "white"
-                }
-              },
-              {
-                "function": "minecraft:set_lore",
-                "lore": [
-                  {
-                    "text": "Requires 3 Ingots",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ]
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221832,voxelsmith:{blueprint:1b,tool_blueprint:1b,axe_head_blueprint:1b}}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{origin:{x:4, y:0, z:4}}}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{shape:[{y: 0, z: 1, x: 0}, {y: 0, z: 2, x: 0}, {y: 0, z: 0, x: 1}, {y: 0, z: 1, x: 1}, {y: 0, z: 2, x: 1}, {y: 0, z: 3, x: 1}, {y: 0, z: 0, x: 2}, {y: 0, z: 1, x: 2}, {y: 0, z: 2, x: 2}, {y: 0, z: 3, x: 2}, {y: 0, z: 4, x: 2}, {y: 0, z: 5, x: 2}, {y: 0, z: 6, x: 2}, {y: 0, z: 1, x: 3}, {y: 0, z: 2, x: 3}, {y: 0, z: 3, x: 3}, {y: 0, z: 4, x: 3}, {y: 0, z: 5, x: 3}, {y: 0, z: 6, x: 3}, {y: 0, z: 7, x: 3}, {y: 0, z: 2, x: 4}, {y: 0, z: 3, x: 4}, {y: 0, z: 4, x: 4}, {y: 0, z: 5, x: 4}, {y: 0, z: 6, x: 4}, {y: 0, z: 7, x: 4}, {y: 0, z: 2, x: 5}, {y: 0, z: 3, x: 5}, {y: 0, z: 4, x: 5}, {y: 0, z: 5, x: 5}, {y: 0, z: 6, x: 5}, {y: 0, z: 2, x: 6}, {y: 0, z: 3, x: 6}, {y: 0, z: 4, x: 6}, {y: 0, z: 5, x: 6}, {y: 0, z: 3, x: 7}, {y: 0, z: 4, x: 7}]}}"
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Axe Head Blueprint",
+                "color": "white",
+                "italic": false
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Requires 3 Ingots",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2221832,
+                "minecraft:custom_data": {
+                  "voxelsmith":{
+                    "blueprint": true,
+                    "tool_blueprint": true,
+                    "axe_head_blueprint": true,
+                    "origin":{
+                      "x":4,
+                      "y":0,
+                      "z":4
+                    },
+                    "shape":[
+                      {
+                        "y":0,
+                        "z":1,
+                        "x":0
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":0
+                      },
+                      {
+                        "y":0,
+                        "z":0,
+                        "x":1
+                      },
+                      {
+                        "y":0,
+                        "z":1,
+                        "x":1
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":1
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":1
+                      },
+                      {
+                        "y":0,
+                        "z":0,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":1,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":5,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":6,
+                        "x":2
+                      },
+                      {
+                        "y":0,
+                        "z":1,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":5,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":6,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":7,
+                        "x":3
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":5,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":6,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":7,
+                        "x":4
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":5
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":5
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":5
+                      },
+                      {
+                        "y":0,
+                        "z":5,
+                        "x":5
+                      },
+                      {
+                        "y":0,
+                        "z":6,
+                        "x":5
+                      },
+                      {
+                        "y":0,
+                        "z":2,
+                        "x":6
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":6
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":6
+                      },
+                      {
+                        "y":0,
+                        "z":5,
+                        "x":6
+                      },
+                      {
+                        "y":0,
+                        "z":3,
+                        "x":7
+                      },
+                      {
+                        "y":0,
+                        "z":4,
+                        "x":7
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

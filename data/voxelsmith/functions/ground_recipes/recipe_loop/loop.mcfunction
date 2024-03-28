@@ -8,6 +8,5 @@ data modify storage voxelsmith:data block set from storage voxelsmith:data recip
 data modify storage voxelsmith:data sound set from storage voxelsmith:data recipe.sound
 function voxelsmith:ground_recipes/recipe_loop/item_loop/init with storage voxelsmith:data
 
-
 scoreboard players add #i voxelsmith.value 1
 function voxelsmith:ground_recipes/recipe_loop/loop
