@@ -11,38 +11,50 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Iron Pommel",
-                "italic": false,
-                "color": "white"
+                "color": "white",
+                "italic": false
               }
             },
             {
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "text": ""
+                },
+                {
                   "text": "Combine With:",
-                  "italic": false,
-                  "color": "gray"
+                  "color": "gray",
+                  "italic": false
                 },
                 {
-                  "text": "1 Iron Crossguard",
-                  "italic": false,
-                  "color": "blue"
+                  "text": " 1 Iron Crossguard",
+                  "color": "blue",
+                  "italic": false
                 },
                 {
-                  "text": "1 Iron Blade",
-                  "italic": false,
-                  "color": "blue"
+                  "text": " 1 Iron Blade",
+                  "color": "blue",
+                  "italic": false
                 },
                 {
-                  "text": "1 Stick",
-                  "italic": false,
-                  "color": "blue"
+                  "text": " 1 Stick",
+                  "color": "blue",
+                  "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221802,voxelsmith:{crafting_item:1b,iron_pommel:1b}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2221802,
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "crafting_item": true,
+                    "iron_pommel": true
+                  }
+                }
+              }
             }
           ]
         }

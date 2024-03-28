@@ -19,12 +19,15 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "text": ""
+                },
+                {
                   "text": "Combine With:",
                   "italic": false,
                   "color": "gray"
                 },
                 {
-                  "text": "2 Sticks",
+                  "text": " 2 Sticks",
                   "italic": false,
                   "color": "blue"
                 }

@@ -19,22 +19,25 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
+                  "text": ""
+                },
+                {
                   "text": "Combine With:",
                   "italic": false,
                   "color": "gray"
                 },
                 {
-                  "text": "1 Netherite Pommel",
+                  "text": " 1 Netherite Pommel",
                   "italic": false,
                   "color": "blue"
                 },
                 {
-                  "text": "1 Netherite Blade",
+                  "text": " 1 Netherite Blade",
                   "italic": false,
                   "color": "blue"
                 },
                 {
-                  "text": "1 Stick",
+                  "text": " 1 Stick",
                   "italic": false,
                   "color": "blue"
                 }
