@@ -6,9 +6,12 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "components": {
+              "components": {},
+              "predicates": {
                 "minecraft:custom_data": {
-                  "voxelsmith": {"hammer": true}
+                  "voxelsmith": {
+                    "hammer": true
+                  }
                 }
               }
             }

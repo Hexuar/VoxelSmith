@@ -11,8 +11,8 @@
               "function": "minecraft:set_name",
               "name": {
                 "text": "Iron Blade",
-                "italic": false,
-                "color": "white"
+                "color": "white",
+                "italic": false
               }
             },
             {
@@ -23,29 +23,39 @@
                 },
                 {
                   "text": "Combine With:",
-                  "italic": false,
-                  "color": "gray"
+                  "color": "gray",
+                  "italic": false
                 },
                 {
                   "text": " 1 Iron Pommel",
-                  "italic": false,
-                  "color": "blue"
+                  "color": "blue",
+                  "italic": false
                 },
                 {
                   "text": " 1 Iron Crossguard",
-                  "italic": false,
-                  "color": "blue"
+                  "color": "blue",
+                  "italic": false
                 },
                 {
                   "text": " 1 Stick",
-                  "italic": false,
-                  "color": "blue"
+                  "color": "blue",
+                  "italic": false
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221800,voxelsmith:{crafting_item:1b,iron_blade:1b}}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221800
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "iron_blade": true
+                }
+              }
             }
           ]
         }

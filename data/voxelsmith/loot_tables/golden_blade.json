@@ -41,11 +41,21 @@
                   "italic": false,
                   "color": "blue"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221810,voxelsmith:{crafting_item:1b,golden_blade:1b}}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221810
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "golden_blade": true
+                }
+              }
             }
           ]
         }

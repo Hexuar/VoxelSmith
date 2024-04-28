@@ -9,14 +9,14 @@
     "title": "Stop, hammertime!",
     "description": [
       {
-        "text": "\u0041\n\n\n\n\n\n\n\n",
-        "font": "voxelsmith:recipes",
-        "color": "white"
+        "text": "A\n\n\n\n\n\n\n\n",
+        "color": "white",
+        "font": "voxelsmith:recipes"
       },
       {
         "text": "Craft a wooden hammer",
-        "font": "minecraft:default",
-        "color": "green"
+        "color": "green",
+        "font": "minecraft:default"
       }
     ]
   },
@@ -27,7 +27,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{voxelsmith:{wooden_hammer:1b}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "voxelsmith": {
+                  "hammer": true
+                }
+              }
+            }
           }
         ]
       }

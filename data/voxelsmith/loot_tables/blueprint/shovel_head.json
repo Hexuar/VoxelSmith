@@ -23,19 +23,31 @@
                     "color": "gray",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "replace_all"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:2221833,voxelsmith:{blueprint:1b,tool_blueprint:1b,shovel_head_blueprint:1b}}"
+                "function": "minecraft:set_custom_model_data",
+                "value": 2221833
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{origin:{x:4, y:0, z:5}}}"
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "voxelsmith": {
+                    "blueprint": true,
+                    "tool_blueprint": true,
+                    "shovel_head_blueprint": true
+                  }
+                }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{voxelsmith:{shape:[{y: 0, z: 3, x: 0}, {y: 0, z: 4, x: 0}, {y: 0, z: 5, x: 0}, {y: 0, z: 2, x: 1}, {y: 0, z: 3, x: 1}, {y: 0, z: 4, x: 1}, {y: 0, z: 5, x: 1}, {y: 0, z: 6, x: 1}, {y: 0, z: 1, x: 2}, {y: 0, z: 2, x: 2}, {y: 0, z: 3, x: 2}, {y: 0, z: 4, x: 2}, {y: 0, z: 5, x: 2}, {y: 0, z: 6, x: 2}, {y: 0, z: 0, x: 3}, {y: 0, z: 1, x: 3}, {y: 0, z: 2, x: 3}, {y: 0, z: 3, x: 3}, {y: 0, z: 4, x: 3}, {y: 0, z: 5, x: 3}, {y: 0, z: 6, x: 3}, {y: 0, z: 1, x: 4}, {y: 0, z: 2, x: 4}, {y: 0, z: 3, x: 4}, {y: 0, z: 4, x: 4}, {y: 0, z: 5, x: 4}, {y: 0, z: 2, x: 5}, {y: 0, z: 3, x: 5}, {y: 0, z: 4, x: 5}, {y: 0, z: 3, x: 6}]}}"
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "voxelsmith": {
+                    "origin": {"x":4, "y":0, "z":5},
+                    "shape": [{"y": 0, "z": 3, "x": 0}, {"y": 0, "z": 4, "x": 0}, {"y": 0, "z": 5, "x": 0}, {"y": 0, "z": 2, "x": 1}, {"y": 0, "z": 3, "x": 1}, {"y": 0, "z": 4, "x": 1}, {"y": 0, "z": 5, "x": 1}, {"y": 0, "z": 6, "x": 1}, {"y": 0, "z": 1, "x": 2}, {"y": 0, "z": 2, "x": 2}, {"y": 0, "z": 3, "x": 2}, {"y": 0, "z": 4, "x": 2}, {"y": 0, "z": 5, "x": 2}, {"y": 0, "z": 6, "x": 2}, {"y": 0, "z": 0, "x": 3}, {"y": 0, "z": 1, "x": 3}, {"y": 0, "z": 2, "x": 3}, {"y": 0, "z": 3, "x": 3}, {"y": 0, "z": 4, "x": 3}, {"y": 0, "z": 5, "x": 3}, {"y": 0, "z": 6, "x": 3}, {"y": 0, "z": 1, "x": 4}, {"y": 0, "z": 2, "x": 4}, {"y": 0, "z": 3, "x": 4}, {"y": 0, "z": 4, "x": 4}, {"y": 0, "z": 5, "x": 4}, {"y": 0, "z": 2, "x": 5}, {"y": 0, "z": 3, "x": 5}, {"y": 0, "z": 4, "x": 5}, {"y": 0, "z": 3, "x": 6}]
+                  }
+                }
               }
             ]
           }

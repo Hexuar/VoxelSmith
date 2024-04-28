@@ -27,17 +27,25 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:custom_model_data": 2221828,
-                "minecraft:custom_data": {
-                  "voxelsmith": {
-                    "blueprint":true,
-                    "sword_blueprint":true,
-                    "pommel_blueprint":true,
-                    "origin":{"x":6, "y":0, "z":6},
-                    "shape":[{"y": 0, "z": 0, "x": 0}, {"y": 0, "z": 1, "x": 0}, {"y": 0, "z": 0, "x": 1}, {"y": 0, "z": 1, "x": 1}, {"y": 0, "z": 2, "x": 1}, {"y": 0, "z": 0, "x": 2}, {"y": 0, "z": 1, "x": 2}, {"y": 0, "z": 2, "x": 2}]
-                  }
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221828
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "blueprint":true,
+                  "sword_blueprint":true,
+                  "pommel_blueprint":true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "origin":{"x":6, "y":0, "z":6},
+                  "shape":[{"y": 0, "z": 0, "x": 0}, {"y": 0, "z": 1, "x": 0}, {"y": 0, "z": 0, "x": 1}, {"y": 0, "z": 1, "x": 1}, {"y": 0, "z": 2, "x": 1}, {"y": 0, "z": 0, "x": 2}, {"y": 0, "z": 1, "x": 2}, {"y": 0, "z": 2, "x": 2}]
                 }
               }
             }

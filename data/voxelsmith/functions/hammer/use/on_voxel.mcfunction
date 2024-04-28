@@ -5,8 +5,8 @@ scoreboard players operation #temp voxelsmith.value = @s voxelsmith.ingotID
 execute as @e[type=#voxelsmith:metal_shape_entities] if score @s voxelsmith.ingotID = #temp voxelsmith.value run tag @s add voxelsmith.current_ingot
 
 # Advancements
-execute unless score #hammer_mode voxelsmith.hammer_mode matches 1 run advancement grant @p only voxelsmith:tutorial/hit_voxel
-execute if score #hammer_mode voxelsmith.hammer_mode matches 1 run advancement grant @p only voxelsmith:tutorial/destroy_voxel
+execute unless score #hammer_mode voxelsmith.value matches 1 run advancement grant @p only voxelsmith:tutorial/hit_voxel
+execute if score #hammer_mode voxelsmith.value matches 1 run advancement grant @p only voxelsmith:tutorial/destroy_voxel
 
 # Kill if right clicked
 execute if score #hammer_mode voxelsmith.value matches 1 run function voxelsmith:metal_voxel/kill

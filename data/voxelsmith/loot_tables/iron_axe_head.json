@@ -31,11 +31,21 @@
                   "italic": false,
                   "color": "blue"
                 }
-              ]
+              ],
+              "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2221806,voxelsmith:{crafting_item:1b,iron_axe_head:1b}}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221806
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "iron_axe_head": true
+                }
+              }
             }
           ]
         }
