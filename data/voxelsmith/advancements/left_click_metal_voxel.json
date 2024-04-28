@@ -6,7 +6,11 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "nbt": "{voxelsmith:{hammer:1b}}"
+              "components": {
+                "minecraft:custom_data" : {
+                  "voxelsmith": {"hammer":true}
+                }
+              }
             }
           }
         },

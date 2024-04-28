@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:copy_nbt",
+    "function": "minecraft:copy_custom_data",
     "source": {
       "type": "minecraft:storage",
       "source": "voxelsmith:temperature"
@@ -14,7 +14,7 @@
     ]
   },
   {
-    "function": "minecraft:copy_nbt",
+    "function": "minecraft:copy_custom_data",
     "source": {
       "type": "minecraft:storage",
       "source": "voxelsmith:temperature"
@@ -28,7 +28,7 @@
     ]
   },
   {
-    "function": "minecraft:copy_nbt",
+    "function": "minecraft:copy_custom_data",
     "source": {
       "type": "minecraft:storage",
       "source": "voxelsmith:temperature"
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "function": "minecraft:copy_nbt",
+    "function": "minecraft:copy_custom_data",
     "source": {
       "type": "minecraft:storage",
       "source": "voxelsmith:temperature"
