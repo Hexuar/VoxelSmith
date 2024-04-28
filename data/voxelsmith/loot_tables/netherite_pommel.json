@@ -56,6 +56,12 @@
                   "netherite_pommel": true
                 }
               }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fire_resistant": {}
+              }
             }
           ]
         }

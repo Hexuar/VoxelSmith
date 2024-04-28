@@ -46,6 +46,12 @@
                   "netherite_shovel_head": true
                 }
               }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fire_resistant": {}
+              }
             }
           ]
         }

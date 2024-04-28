@@ -54,6 +54,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:fire_resistant": {},
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
