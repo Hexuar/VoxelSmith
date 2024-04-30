@@ -56,12 +56,11 @@ execute store result storage voxelsmith:temperature temperature int 1 run scoreb
 execute store result storage voxelsmith:temperature timestamp int 1 run scoreboard players get #stored_timestamp voxelsmith.value
 execute store result storage voxelsmith:temperature CustomModelData int 1 run scoreboard players get #CustomModelData voxelsmith.value
 
-
 execute if score #storeLore voxelsmith.value matches 0 if score #hasLore voxelsmith.value matches 0 run data modify storage voxelsmith:temperature Lore set value []
-#$execute if score #storeLore voxelsmith.value matches 0 run item modify entity @s container.$(slot) voxelsmith:store_original_lore
+$execute if score #storeLore voxelsmith.value matches 0 run item modify entity @s container.$(slot) voxelsmith:store_original_lore
 
 data modify storage voxelsmith:temperature Lore set from storage voxelsmith:temperature CurrentItem.components.minecraft:custom_data.voxelsmith.Lore
-#$execute if score #continue voxelsmith.value matches 1 run item modify entity @s container.$(slot) voxelsmith:hot_item
+$execute if score #continue voxelsmith.value matches 1 run item modify entity @s container.$(slot) voxelsmith:hot_item
 
 $execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches ..39 run item modify entity @s container.$(slot) voxelsmith:add_temperature/very_low
 $execute if score #continue voxelsmith.value matches 1 if score #temperature voxelsmith.value matches 40..99 run item modify entity @s container.$(slot) voxelsmith:add_temperature/low

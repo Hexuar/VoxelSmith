@@ -1,5 +1,6 @@
 scoreboard players operation #delta_temperature voxelsmith.value = #item_cooling_speed voxelsmith.value
 scoreboard players operation #delta_temperature voxelsmith.value *= #-1 voxelsmith.value
+
 function voxelsmith:ground_recipes/temperature/change_temperature
 
 advancement grant @p[distance=..4] only voxelsmith:tutorial/cool_item

@@ -2,7 +2,7 @@
 execute store result score #temperature voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.temperature
 execute if score #temperature voxelsmith.value matches 0 run scoreboard players operation #temperature voxelsmith.value = #min_temperature voxelsmith.value
 
-# Increase item temperature
+# Change item temperature
 scoreboard players operation #limit_min voxelsmith.value = #min_temperature voxelsmith.value
 scoreboard players operation #limit_min voxelsmith.value -= #delta_temperature voxelsmith.value
 
