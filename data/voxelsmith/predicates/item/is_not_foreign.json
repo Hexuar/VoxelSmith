@@ -5,7 +5,7 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "nbt": "{Item:{tag:{voxelsmith:{}}}}"
+          "nbt": "{Item:{components:{\"minecraft:custom_data\":{voxelsmith:{}}}}}"
         }
       },
       {
@@ -14,7 +14,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "nbt": "{Item:{tag:{}}}"
+            "nbt": "{Item:{components:{\"minecraft:custom_data\":{}}}}"
           }
         }
       }
