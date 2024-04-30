@@ -9,7 +9,7 @@
     "title": "Blue Voxels!",
     "description": "Throw a Blueprint onto an Anvil with Hot Metal"
   },
-  "parent": "voxelsmith:tutorial/armor_blueprint",
+  "parent": "voxelsmith:tutorial/tongs",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
