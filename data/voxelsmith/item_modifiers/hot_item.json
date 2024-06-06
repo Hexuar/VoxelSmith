@@ -7,20 +7,6 @@
     },
     "ops": [
       {
-        "source": "CustomModelData",
-        "target": "CustomModelData",
-        "op": "replace"
-      }
-    ]
-  },
-  {
-    "function": "minecraft:copy_custom_data",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "voxelsmith:temperature"
-    },
-    "ops": [
-      {
         "source": "temperature",
         "target": "voxelsmith.temperature",
         "op": "replace"
@@ -37,20 +23,6 @@
       {
         "source": "timestamp",
         "target": "voxelsmith.timestamp",
-        "op": "replace"
-      }
-    ]
-  },
-  {
-    "function": "minecraft:copy_custom_data",
-    "source": {
-      "type": "minecraft:storage",
-      "source": "voxelsmith:temperature"
-    },
-    "ops": [
-      {
-        "source": "Lore",
-        "target": "display.Lore",
         "op": "replace"
       }
     ]

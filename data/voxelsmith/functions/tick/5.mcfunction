@@ -11,4 +11,4 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmi
 execute as @e[type=item_display,tag=voxelsmith.blueprint_voxel] at @s align xyz unless entity @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run kill @s
 
 # Ground Recipes
-function #voxelsmith:check_ground_recipes
+function voxelsmith:ground_recipes/tick
