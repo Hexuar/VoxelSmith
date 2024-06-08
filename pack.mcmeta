@@ -7,6 +7,42 @@
         "block": [
             {
                 "namespace": "minecraft",
+                "path": "recipes/stone_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_boots"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_chestplate"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_helmet"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_leggings"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipes/stone_sword"
+            },
+            {
+                "namespace": "minecraft",
                 "path": "recipes/golden_axe"
             },
             {

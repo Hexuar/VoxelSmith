@@ -29,13 +29,6 @@
           "predicate": {
             "nbt": "{Item:{id:\"minecraft:netherite_ingot\"}}"
           }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "nbt": "{Item:{id:\"minecraft:cobblestone\"}}"
-          }
         }
       ]
     }

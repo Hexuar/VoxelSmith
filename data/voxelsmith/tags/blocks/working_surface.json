@@ -1,0 +1,9 @@
+{
+    "values": [
+        "stone",
+        "smooth_stone",
+        "anvil",
+        "chipped_anvil",
+        "damaged_anvil"
+    ]
+}

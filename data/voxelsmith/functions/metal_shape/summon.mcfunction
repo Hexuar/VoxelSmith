@@ -9,6 +9,8 @@ execute align xyz summon marker run function voxelsmith:metal_shape/get_origin
 
 # Summon Base Entity
 summon marker ~ ~ ~ {Tags:["voxelsmith.entity","voxelsmith.metal_shape"]}
+execute if score #requiresHeat voxelsmith.value matches 0 run tag @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1] add voxelsmith.knapping_shape
+
 data modify entity @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1] data.metal set from storage voxelsmith:data metal
 execute store result entity @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1] data.temperature int 1 run scoreboard players get #temperature voxelsmith.value
 tp @e[type=marker,tag=voxelsmith.metal_shape,sort=nearest,limit=1] ~ ~ ~ ~ ~
