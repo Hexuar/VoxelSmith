@@ -25,11 +25,6 @@ scoreboard players set #item_heating_speed voxelsmith.value 5
 scoreboard players set #min_temperature voxelsmith.value 25
 scoreboard players set #max_temperature voxelsmith.value 1400
 
-
-# Random Color
-data modify storage voxelsmith:data colorPalette set value [15921906,15527148,15395562,15132390,14737632,14474460,14079702,13750223,12698049,12171705,11645104]
-
-
 # Set Command Limit
 gamerule maxCommandChainLength 999999999
 

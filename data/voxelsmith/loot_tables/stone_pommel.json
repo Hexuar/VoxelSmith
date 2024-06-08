@@ -10,7 +10,7 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Blade",
+                "text": "Stone Pommel",
                 "color": "white",
                 "italic": false
               }
@@ -27,12 +27,12 @@
                   "italic": false
                 },
                 {
-                  "text": " 1 Iron Pommel",
+                  "text": " 1 Stone Crossguard",
                   "color": "blue",
                   "italic": false
                 },
                 {
-                  "text": " 1 Iron Crossguard",
+                  "text": " 1 Stone Blade",
                   "color": "blue",
                   "italic": false
                 },
@@ -45,15 +45,14 @@
               "mode": "replace_all"
             },
             {
-              "function": "minecraft:set_custom_model_data",
-              "value": 2221830
-            },
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": {
-                "voxelsmith": {
-                  "crafting_item": true,
-                  "iron_blade": true
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2221812,
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "crafting_item": true,
+                    "stone_pommel": true
+                  }
                 }
               }
             }

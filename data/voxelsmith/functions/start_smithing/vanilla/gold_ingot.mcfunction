@@ -1,4 +1,5 @@
 data modify storage voxelsmith:data metal set value {id:"minecraft:gold_ingot",Count:1b}
-#data modify storage voxelsmith:data colorPalette set value [16711613,16776592,16772175,16703560,16108583,16767038,16366883,13405735,13866546]
+data modify storage voxelsmith:data colorPalette set value [15921906,15527148,15395562,15132390,14737632,14474460,14079702,13750223,12698049,12171705,11645104]
+scoreboard players set #requiresHeat voxelsmith.value 1
 
 function voxelsmith:start_smithing/main

@@ -47,7 +47,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2221802,
+                "minecraft:custom_model_data": 2221832,
                 "minecraft:custom_data": {
                   "voxelsmith": {
                     "crafting_item": true,

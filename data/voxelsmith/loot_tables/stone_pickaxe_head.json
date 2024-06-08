@@ -10,9 +10,9 @@
             {
               "function": "minecraft:set_name",
               "name": {
-                "text": "Iron Blade",
-                "color": "white",
-                "italic": false
+                "text": "Stone Pickaxe Head",
+                "italic": false,
+                "color": "white"
               }
             },
             {
@@ -23,37 +23,27 @@
                 },
                 {
                   "text": "Combine With:",
-                  "color": "gray",
-                  "italic": false
+                  "italic": false,
+                  "color": "gray"
                 },
                 {
-                  "text": " 1 Iron Pommel",
-                  "color": "blue",
-                  "italic": false
-                },
-                {
-                  "text": " 1 Iron Crossguard",
-                  "color": "blue",
-                  "italic": false
-                },
-                {
-                  "text": " 1 Stick",
-                  "color": "blue",
-                  "italic": false
+                  "text": " 2 Sticks",
+                  "italic": false,
+                  "color": "blue"
                 }
               ],
               "mode": "replace_all"
             },
             {
               "function": "minecraft:set_custom_model_data",
-              "value": 2221830
+              "value": 2221815
             },
             {
               "function": "minecraft:set_custom_data",
               "tag": {
                 "voxelsmith": {
                   "crafting_item": true,
-                  "iron_blade": true
+                  "stone_pickaxe_head": true
                 }
               }
             }
