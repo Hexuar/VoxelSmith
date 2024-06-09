@@ -11,23 +11,7 @@
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_boots"
-            },
-            {
-                "namespace": "minecraft",
-                "path": "recipes/stone_chestplate"
-            },
-            {
-                "namespace": "minecraft",
-                "path": "recipes/stone_helmet"
-            },
-            {
-                "namespace": "minecraft",
                 "path": "recipes/stone_hoe"
-            },
-            {
-                "namespace": "minecraft",
-                "path": "recipes/stone_leggings"
             },
             {
                 "namespace": "minecraft",

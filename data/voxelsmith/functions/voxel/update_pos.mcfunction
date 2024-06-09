@@ -19,4 +19,4 @@ execute store result storage voxelsmith:data temp.x float 0.00001 run scoreboard
 execute store result storage voxelsmith:data temp.y float 0.00001 run scoreboard players get #pos.y voxelsmith.value
 execute store result storage voxelsmith:data temp.z float 0.00001 run scoreboard players get #pos.z voxelsmith.value
 
-function voxelsmith:metal_voxel/set_pos with storage voxelsmith:data temp
+function voxelsmith:voxel/set_pos with storage voxelsmith:data temp

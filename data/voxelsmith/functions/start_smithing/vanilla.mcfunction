@@ -12,6 +12,6 @@ execute store result score #has_temperature voxelsmith.value run data get entity
 
 execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.components.minecraft:custom_data.voxelsmith.smithing_ingot
 execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.components.minecraft:custom_data.voxelsmith.metal
-execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.components.minecraft:custom_data.voxelsmith.metal_voxel
+execute if score #has_temperature voxelsmith.value matches 1 run data remove entity @s Item.components.minecraft:custom_data.voxelsmith.voxel
 
 execute if score #has_temperature voxelsmith.value matches 0 run data remove entity @s Item.components.minecraft:custom_data

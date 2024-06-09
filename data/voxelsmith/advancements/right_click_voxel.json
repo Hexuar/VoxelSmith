@@ -1,7 +1,7 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "player": {
           "equipment": {
@@ -23,7 +23,7 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:interaction",
-              "nbt": "{Tags:[\"voxelsmith.metal_voxel\"]}"
+              "nbt": "{Tags:[\"voxelsmith.voxel\"]}"
             }
           }
         ]
@@ -31,6 +31,6 @@
     }
   },
   "rewards": {
-    "function": "voxelsmith:hammer/left_click"
+    "function": "voxelsmith:hammer/right_click"
   }
 }

@@ -1,4 +1,4 @@
-advancement revoke @s only voxelsmith:left_click_metal_voxel
+advancement revoke @s only voxelsmith:left_click_voxel
 
 scoreboard players set #hammer_mode voxelsmith.value 0
 
