@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Diamond Pommel",
+                "italic": false,
+                "color": "white"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Combine With:",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": " 1 Diamond Crossguard",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": " 1 Diamond Blade",
+                  "italic": false,
+                  "color": "blue"
+                },
+                {
+                  "text": " 1 Stick",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221842
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "diamond_pommel": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

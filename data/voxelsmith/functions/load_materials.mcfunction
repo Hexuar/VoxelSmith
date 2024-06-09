@@ -7,3 +7,5 @@ function voxelsmith:add_material {id:"voxelsmith:iron_ingot",material:{item:{id:
 function voxelsmith:add_material {id:"voxelsmith:netherite_ingot",material:{item:{id:"minecraft:netherite_ingot"},type:1,color_palette:[15921906,15527148,15395562,15132390,14737632,14474460,14079702,13750223,12698049,12171705,11645104]}}
 
 function voxelsmith:add_material {id:"voxelsmith:cobblestone",material:{item:{id:"minecraft:cobblestone"},type:0,color_palette:[5395026,6381921,7236973,10921638,11908533,8947592]}}
+
+function voxelsmith:add_material {id:"voxelsmith:diamond",material:{item:{id:"minecraft:diamond"},type:0,color_palette:[16777215,14024694,10419947,6682083,7404528,4976102,4055269,1426118,965309]}}
