@@ -8,6 +8,5 @@ execute if score #recipe_index voxelsmith.value >= #recipe_length voxelsmith.val
     data modify storage voxelsmith:smithing recipes append from storage voxelsmith:smithing recipes[0]
     data remove storage voxelsmith:smithing recipes[0]
 
-
 scoreboard players add #recipe_index voxelsmith.value 1
 function voxelsmith:recipe_checker/recipe_loop/loop

@@ -34,3 +34,8 @@ execute if score #debug voxelsmith.value matches 1 run tellraw @a {"text":"[Voxe
 data modify storage voxelsmith:smithing recipes set value []
 data modify storage voxelsmith:smithing ground_recipes set value []
 function #voxelsmith:load_recipes
+
+# Material Data
+execute if score #debug voxelsmith.value matches 1 run tellraw @a {"text":"[VoxelSmith] Loading Materials..."}
+data modify storage voxelsmith:smithing materials set value []
+function #voxelsmith:load_materials
