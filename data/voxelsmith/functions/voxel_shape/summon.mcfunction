@@ -10,7 +10,7 @@ function voxelsmith:voxel_shape/set_size
 execute align xyz summon marker run function voxelsmith:voxel_shape/get_origin
 
 # Light
-setblock ~ ~ ~ light[level=7]
+execute if score #requiresHeat voxelsmith.value matches 1 run setblock ~ ~ ~ light[level=7]
 
 
 
