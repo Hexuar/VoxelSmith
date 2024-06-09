@@ -27,7 +27,7 @@ tag @s add voxelsmith.voxel_shape
 execute if score #requiresHeat voxelsmith.value matches 0 run tag @s add voxelsmith.knapping_shape
 
 # Set Data
-data modify entity @s data.metal set from storage voxelsmith:data metal
+data modify entity @s data.material set from storage voxelsmith:data material
 execute store result entity @s data.temperature int 1 run scoreboard players get #temperature voxelsmith.value
 
 execute if block ~ ~-1 ~ #minecraft:anvil run data modify entity @s data.surface set value "anvil"

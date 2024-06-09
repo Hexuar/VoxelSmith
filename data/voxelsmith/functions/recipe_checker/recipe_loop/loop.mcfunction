@@ -3,7 +3,7 @@ execute if score #recipe_index voxelsmith.value >= #recipe_length voxelsmith.val
 
     data modify storage voxelsmith:input shape set from storage voxelsmith:smithing recipes[0].shape
     function voxelsmith:recipe_checker/compare_recipe
-    execute if score #bool voxelsmith.value matches 0 run function voxelsmith:recipe_checker/metal_loop/init
+    execute if score #bool voxelsmith.value matches 0 run function voxelsmith:recipe_checker/material_loop/init
 
     data modify storage voxelsmith:smithing recipes append from storage voxelsmith:smithing recipes[0]
     data remove storage voxelsmith:smithing recipes[0]
