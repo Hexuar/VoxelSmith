@@ -1,9 +1,6 @@
 {
     "values": [
-        "stone",
-        "smooth_stone",
-        "anvil",
-        "chipped_anvil",
-        "damaged_anvil"
+        "#minecraft:anvil",
+        "#voxelsmith:knapping_surface"
     ]
 }

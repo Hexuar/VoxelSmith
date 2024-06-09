@@ -1,36 +1,42 @@
 # Achievement
 advancement grant @p[distance=..4] only voxelsmith:tutorial/start_smithing
 
+
+
 # Set Size
 function voxelsmith:voxel_shape/set_size
 
 # Get Origin
 execute align xyz summon marker run function voxelsmith:voxel_shape/get_origin
 
-# Summon Base Entity
-summon marker ~ ~ ~ {Tags:["voxelsmith.entity","voxelsmith.voxel_shape"]}
-execute if score #requiresHeat voxelsmith.value matches 0 run tag @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] add voxelsmith.knapping_shape
-
-data modify entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] data.metal set from storage voxelsmith:data metal
-execute store result entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] data.temperature int 1 run scoreboard players get #temperature voxelsmith.value
-tp @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] ~ ~ ~ ~ ~
-
-# ID
-scoreboard players add #current voxelsmith.ingotID 1
-scoreboard players operation @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] voxelsmith.ingotID = #current voxelsmith.ingotID
-
 # Light
 setblock ~ ~ ~ light[level=7]
 
-# Set Surface Data
-execute if block ~ ~-1 ~ #minecraft:anvil run data modify entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] data.surface set value "anvil"
-execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run data modify entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] data.surface set value "stone"
+
+
+# Set rotation
+tp @s ~ ~ ~ ~ ~
+
+# ID
+scoreboard players add #current voxelsmith.ingotID 1
+scoreboard players operation @s voxelsmith.ingotID = #current voxelsmith.ingotID
+
+# Set Tags
+tag @s add voxelsmith.entity
+tag @s add voxelsmith.voxel_shape
+execute if score #requiresHeat voxelsmith.value matches 0 run tag @s add voxelsmith.knapping_shape
+
+# Set Data
+data modify entity @s data.metal set from storage voxelsmith:data metal
+execute store result entity @s data.temperature int 1 run scoreboard players get #temperature voxelsmith.value
+
+execute if block ~ ~-1 ~ #minecraft:anvil run data modify entity @s data.surface set value "anvil"
+execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run data modify entity @s data.surface set value "stone"
+
+
 
 # Summon Voxels
 scoreboard players set #voxel.x voxelsmith.value 0
 scoreboard players set #voxel.y voxelsmith.value 0
 scoreboard players set #voxel.z voxelsmith.value 0
-execute as @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] at @s run function voxelsmith:voxel_shape/summon/loop_x
-
-# Fix Rotation
-tp @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1] ~ ~ ~ ~ ~
+execute as @s at @s run function voxelsmith:voxel_shape/summon/loop_x

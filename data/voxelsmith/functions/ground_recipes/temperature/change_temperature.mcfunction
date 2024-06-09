@@ -12,7 +12,7 @@ scoreboard players operation #limit_max voxelsmith.value -= #delta_temperature v
 execute if score #temperature voxelsmith.value >= #limit_min voxelsmith.value if score #temperature voxelsmith.value <= #limit_max voxelsmith.value run scoreboard players operation #temperature voxelsmith.value += #delta_temperature voxelsmith.value
 
 # Custom Model Data
-execute store success score #temperature_model voxelsmith.value if predicate voxelsmith:item/is_ingot
+execute store success score #temperature_model voxelsmith.value if predicate voxelsmith:item/is_smithing_material
 execute if score #temperature_model voxelsmith.value matches 1 run scoreboard players set #CustomModelData voxelsmith.value 222180000
 execute if score #temperature_model voxelsmith.value matches 1 run scoreboard players operation #CustomModelData voxelsmith.value += #temperature voxelsmith.value
 execute if score #temperature_model voxelsmith.value matches 1 run execute store result entity @s Item.components.minecraft:custom_model_data int 1 run scoreboard players get #CustomModelData voxelsmith.value

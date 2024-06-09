@@ -5,7 +5,7 @@ function voxelsmith:ground_recipes/temperature/change_temperature
 
 advancement grant @p[distance=..4] only voxelsmith:tutorial/cool_item
 
-execute if score #temperature voxelsmith.value matches ..70 unless entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmith:{crafting_item:1b}}}}}] unless predicate voxelsmith:item/is_ingot run function voxelsmith:ground_recipes/temperature/clear
+execute if score #temperature voxelsmith.value matches ..70 unless entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmith:{crafting_item:1b}}}}}] unless predicate voxelsmith:item/is_smithing_material run function voxelsmith:ground_recipes/temperature/clear
 
 # Effects
 execute store result score #play_sound voxelsmith.value run random value 0..1

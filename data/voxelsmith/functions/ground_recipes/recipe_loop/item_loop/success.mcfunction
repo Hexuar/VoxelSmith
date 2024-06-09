@@ -5,5 +5,6 @@ execute if score #recipe_type voxelsmith.value matches 1 run function voxelsmith
 execute if block ~ ~-1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/craft_item
 $playsound $(sound) block @a ~ ~ ~
 
+
 kill @e[tag=voxelsmith.current]
 kill @s
