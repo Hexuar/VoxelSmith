@@ -1,4 +1,5 @@
 {
+  "parent": "voxelsmith:tutorial/knapping",
   "display": {
     "icon": {
       "id": "minecraft:structure_block",
@@ -7,9 +8,8 @@
         }
     },
     "title": "Blue Voxels!",
-    "description": "Throw a Blueprint onto an Anvil with Hot Metal"
+    "description": "Throw a Blueprint onto the knapping surface"
   },
-  "parent": "voxelsmith:tutorial/tongs",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

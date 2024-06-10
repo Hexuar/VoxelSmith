@@ -1,12 +1,12 @@
 {
+  "parent": "voxelsmith:tutorial/hit_voxel",
   "display": {
     "icon": {
-      "id": "minecraft:iron_block"
+      "id": "minecraft:cobblestone"
     },
     "title": "Aaaaaand it's gone...",
     "description": "Destroy a voxel by right clicking it with a hammer"
   },
-  "parent": "voxelsmith:tutorial/hit_voxel",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

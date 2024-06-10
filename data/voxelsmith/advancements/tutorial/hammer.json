@@ -1,4 +1,5 @@
 {
+  "parent": "voxelsmith:tutorial/root",
   "display": {
     "icon": {
       "id": "minecraft:wooden_sword",
@@ -7,20 +8,8 @@
       }
     },
     "title": "Stop, hammertime!",
-    "description": [
-      {
-        "text": "A\n\n\n\n\n\n\n\n",
-        "color": "white",
-        "font": "voxelsmith:recipes"
-      },
-      {
-        "text": "Craft a wooden hammer",
-        "color": "green",
-        "font": "minecraft:default"
-      }
-    ]
+    "description": "Craft a wooden hammer"
   },
-  "parent": "voxelsmith:tutorial/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

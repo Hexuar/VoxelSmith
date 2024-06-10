@@ -1,15 +1,15 @@
 {
+  "parent": "voxelsmith:tutorial/root",
   "display": {
     "icon": {
       "id": "minecraft:command_block",
       "components": {
-        "minecraft:custom_model_data": 2221831
+        "minecraft:custom_model_data": 2221863
       }
     },
     "title": "Sketchy",
     "description": "Make a Tool Blueprint by Throwing 1 Paper, 1 Ink Sac and a Wooden Tool on a Crafting Table"
   },
-  "parent": "voxelsmith:tutorial/root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

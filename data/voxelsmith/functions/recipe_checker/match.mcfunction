@@ -1,4 +1,5 @@
-advancement grant @a[distance=..4] only voxelsmith:tutorial/forge_item
+execute if block ~ ~-1 ~ #minecraft:anvil run advancement grant @a[distance=..4] only voxelsmith:tutorial/forge_item
+execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run advancement grant @a[distance=..4] only voxelsmith:tutorial/knap_item
 
 playsound entity.item.pickup block @a ~ ~ ~
 

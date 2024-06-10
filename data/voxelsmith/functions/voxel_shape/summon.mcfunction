@@ -1,5 +1,6 @@
 # Achievement
-advancement grant @p[distance=..4] only voxelsmith:tutorial/start_smithing
+execute if block ~ ~-1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/smithing
+execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run advancement grant @p[distance=..4] only voxelsmith:tutorial/knapping
 
 
 

@@ -1,15 +1,15 @@
 {
+  "parent": "voxelsmith:tutorial/used_blueprint_smithing",
   "display": {
     "icon": {
       "id": "minecraft:command_block",
       "components": {
-        "minecraft:custom_model_data": 2221805
+        "minecraft:custom_model_data": 2221835
       }
     },
-    "title": "Great Success!",
+    "title": "Even Greater Success!",
     "description": "Forge an item by successfully hammering it into the correct shape"
   },
-  "parent": "voxelsmith:tutorial/destroy_voxel",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

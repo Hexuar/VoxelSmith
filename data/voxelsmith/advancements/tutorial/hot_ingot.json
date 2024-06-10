@@ -1,4 +1,5 @@
 {
+  "parent": "voxelsmith:tutorial/forge",
   "display": {
     "icon": {
       "id": "minecraft:iron_ingot",
@@ -9,7 +10,6 @@
     "title": "It's Getting Hot In Here!",
     "description": "Let an ingot reach 900°C"
   },
-  "parent": "voxelsmith:tutorial/forge",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"

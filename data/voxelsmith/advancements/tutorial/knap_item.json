@@ -1,0 +1,18 @@
+{
+  "parent": "voxelsmith:tutorial/destroy_voxel",
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:custom_model_data": 2221815
+      }
+    },
+    "title": "Great Success!",
+    "description": "Knap an item by successfully hammering it into the correct shape"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

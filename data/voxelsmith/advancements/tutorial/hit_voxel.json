@@ -1,12 +1,12 @@
 {
+  "parent": "voxelsmith:tutorial/used_blueprint_knapping",
   "display": {
     "icon": {
-      "id": "minecraft:iron_block"
+      "id": "minecraft:cobblestone"
     },
     "title": "They Move?!",
     "description": "Move a voxel by left clicking it with a hammer. Sneaking moves it backwards"
   },
-  "parent": "voxelsmith:tutorial/anvil",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:impossible"
