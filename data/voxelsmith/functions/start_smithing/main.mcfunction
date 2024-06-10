@@ -16,11 +16,11 @@ execute store result storage voxelsmith:data colorPaletteLength int 1 run scoreb
 # Pass Material
 data modify storage voxelsmith:data material set from entity @s Item.components.minecraft:custom_data.voxelsmith.material
 
-execute if block ~ ~-1 ~ #anvil[facing=north] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 summon marker run function voxelsmith:voxel_shape/summon
-execute if block ~ ~-1 ~ #anvil[facing=east] positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
-execute if block ~ ~-1 ~ #anvil[facing=south] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 summon marker run function voxelsmith:voxel_shape/summon
-execute if block ~ ~-1 ~ #anvil[facing=west] positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
+execute if block ~ ~-0.1 ~ #anvil[facing=north] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 summon marker run function voxelsmith:voxel_shape/summon
+execute if block ~ ~-0.1 ~ #anvil[facing=east] positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
+execute if block ~ ~-0.1 ~ #anvil[facing=south] positioned ~0.09375 ~ ~-0.28125 rotated 90 0 summon marker run function voxelsmith:voxel_shape/summon
+execute if block ~ ~-0.1 ~ #anvil[facing=west] positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
 
-execute if block ~ ~-1 ~ #voxelsmith:knapping_surface positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
+execute if block ~ ~-0.1 ~ #voxelsmith:knapping_surface positioned ~-0.28125 ~ ~-0.09375 rotated 0 0 summon marker run function voxelsmith:voxel_shape/summon
 
 kill @s

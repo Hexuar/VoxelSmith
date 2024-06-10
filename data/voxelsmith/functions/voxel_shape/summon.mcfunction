@@ -1,6 +1,6 @@
 # Achievement
-execute if block ~ ~-1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/smithing
-execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run advancement grant @p[distance=..4] only voxelsmith:tutorial/knapping
+execute if block ~ ~-0.1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/smithing
+execute if block ~ ~-0.1 ~ #voxelsmith:knapping_surface run advancement grant @p[distance=..4] only voxelsmith:tutorial/knapping
 
 
 
@@ -31,8 +31,8 @@ execute if score #requiresHeat voxelsmith.value matches 0 run tag @s add voxelsm
 data modify entity @s data.material set from storage voxelsmith:data material
 execute store result entity @s data.temperature int 1 run scoreboard players get #temperature voxelsmith.value
 
-execute if block ~ ~-1 ~ #minecraft:anvil run data modify entity @s data.surface set value "anvil"
-execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run data modify entity @s data.surface set value "stone"
+execute if block ~ ~-0.1 ~ #minecraft:anvil run data modify entity @s data.surface set value "anvil"
+execute if block ~ ~-0.1 ~ #voxelsmith:knapping_surface run data modify entity @s data.surface set value "stone"
 
 
 

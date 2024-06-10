@@ -1,5 +1,5 @@
-execute if block ~ ~-1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/used_blueprint_smithing
-execute if block ~ ~-1 ~ #voxelsmith:knapping_surface run advancement grant @p[distance=..4] only voxelsmith:tutorial/used_blueprint_knapping
+execute if block ~ ~-0.1 ~ #minecraft:anvil run advancement grant @p[distance=..4] only voxelsmith:tutorial/used_blueprint_smithing
+execute if block ~ ~-0.1 ~ #voxelsmith:knapping_surface run advancement grant @p[distance=..4] only voxelsmith:tutorial/used_blueprint_knapping
 
 scoreboard players set #index voxelsmith.value 0
 execute store result score #length voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.shape
