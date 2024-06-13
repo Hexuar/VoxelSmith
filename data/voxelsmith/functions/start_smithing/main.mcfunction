@@ -1,7 +1,7 @@
 # Count Check
 execute store result score #count voxelsmith.value run data get entity @s Item.count
-execute if score #count voxelsmith.value matches 16.. run title @p[distance=..5] actionbar {"text":"Too much material, maximum stack size is 8","color":"red"}
-execute if score #count voxelsmith.value matches 16.. run return 0
+execute if score #count voxelsmith.value matches 8.. run title @p[distance=..5] actionbar {"text":"Too much material, maximum stack size is 8","color":"red"}
+execute if score #count voxelsmith.value matches 8.. run return 0
 
 # Temperature Check
 execute if score #requiresHeat voxelsmith.value matches 1 store result score #temperature voxelsmith.value run data get entity @s Item.components.minecraft:custom_data.voxelsmith.temperature
