@@ -47,7 +47,8 @@
               "tag": {
                 "voxelsmith": {
                   "tongs": true,
-                  "iron_tongs": true
+                  "iron_tongs": true,
+                  "keep_data_when_cooled": true
                 }
               }
             },
