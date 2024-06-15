@@ -110,17 +110,17 @@ function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecr
 
 # Diamond
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_blade:1b}}},count:1},{components:{"minecraft:custom_data":{voxelsmith:{diamond_crossguard:1b}}},count:1},{components:{"minecraft:custom_data":{voxelsmith:{diamond_pommel:1b}}},count:1},{id:"minecraft:stick",count:1}],output:{id:"minecraft:diamond_sword",count:1},block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_blade:1b}}},count:1},{components:{"minecraft:custom_data":{voxelsmith:{diamond_crossguard:1b}}},count:1},{components:{"minecraft:custom_data":{voxelsmith:{diamond_pommel:1b}}},count:1},{id:"minecraft:stick",count:1}],output:{id:"minecraft:diamond_sword",count:1},block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_shovel_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_shovel",count:1},block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_shovel_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_shovel",count:1},block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_hoe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_hoe",count:1},block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_hoe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_hoe",count:1},block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_pickaxe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_pickaxe",count:1},block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_pickaxe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_pickaxe",count:1},block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_axe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_axe",count:1},block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_axe_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:{id:"minecraft:diamond_axe",count:1},block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
-function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"voxelsmith:diamond_hammer",block:"minecraft:anvil",sound:"block.anvil.use"}}
+function voxelsmith:add_ground_recipe {recipe:{ingredients:[{components:{"minecraft:custom_data":{voxelsmith:{diamond_hammer_head:1b}}},count:1},{id:"minecraft:stick",count:2}],output:"voxelsmith:diamond_hammer",block:"#voxelsmith:knapping_surface",sound:"block.anvil.use"}}
 
 
 
