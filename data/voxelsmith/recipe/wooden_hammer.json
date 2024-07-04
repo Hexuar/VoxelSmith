@@ -32,16 +32,14 @@
         "modifiers": [
           {
             "type": "minecraft:generic.attack_speed",
-            "uuid": [-597928423,211109744,-1599444943,-156135484],
-            "name": "generic.attack_speed",
+            "id": "voxelsmith:tool.attack_speed",
             "amount": -3,
             "operation": "add_value",
             "slot": "mainhand"
           },
           {
             "type": "minecraft:generic.attack_damage",
-            "uuid": [-882451873,-1267317939,-1737253534,-226747627],
-            "name": "generic.attack_damage",
+            "id": "voxelsmith:tool.attack_damage",
             "amount": 2,
             "operation": "add_value",
             "slot": "mainhand"
