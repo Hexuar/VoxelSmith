@@ -7,95 +7,95 @@
         "block": [
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_axe"
+                "path": "recipe/stone_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_hoe"
+                "path": "recipe/stone_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_pickaxe"
+                "path": "recipe/stone_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_shovel"
+                "path": "recipe/stone_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/stone_sword"
+                "path": "recipe/stone_sword"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_axe"
+                "path": "recipe/golden_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_boots"
+                "path": "recipe/golden_boots"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_chestplate"
+                "path": "recipe/golden_chestplate"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_helmet"
+                "path": "recipe/golden_helmet"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_hoe"
+                "path": "recipe/golden_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_leggings"
+                "path": "recipe/golden_leggings"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_pickaxe"
+                "path": "recipe/golden_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_shovel"
+                "path": "recipe/golden_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/golden_sword"
+                "path": "recipe/golden_sword"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_axe"
+                "path": "recipe/iron_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_boots"
+                "path": "recipe/iron_boots"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_chestplate"
+                "path": "recipe/iron_chestplate"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_helmet"
+                "path": "recipe/iron_helmet"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_hoe"
+                "path": "recipe/iron_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_leggings"
+                "path": "recipe/iron_leggings"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_pickaxe"
+                "path": "recipe/iron_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_shovel"
+                "path": "recipe/iron_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipes/iron_sword"
+                "path": "recipe/iron_sword"
             }
         ]
     }
