@@ -1,137 +1,137 @@
 {
     "pack": {
-        "pack_format": 48,
+        "pack_format": 41,
         "description": "Realistic smithing!"
     },
     "filter": {
         "block": [
             {
                 "namespace": "minecraft",
-                "path": "recipe/stone_axe"
+                "path": "recipes/stone_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/stone_hoe"
+                "path": "recipes/stone_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/stone_pickaxe"
+                "path": "recipes/stone_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/stone_shovel"
+                "path": "recipes/stone_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/stone_sword"
+                "path": "recipes/stone_sword"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_axe"
+                "path": "recipes/golden_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_boots"
+                "path": "recipes/golden_boots"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_chestplate"
+                "path": "recipes/golden_chestplate"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_helmet"
+                "path": "recipes/golden_helmet"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_hoe"
+                "path": "recipes/golden_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_leggings"
+                "path": "recipes/golden_leggings"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_pickaxe"
+                "path": "recipes/golden_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_shovel"
+                "path": "recipes/golden_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/golden_sword"
+                "path": "recipes/golden_sword"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_axe"
+                "path": "recipes/iron_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_boots"
+                "path": "recipes/iron_boots"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_chestplate"
+                "path": "recipes/iron_chestplate"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_helmet"
+                "path": "recipes/iron_helmet"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_hoe"
+                "path": "recipes/iron_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_leggings"
+                "path": "recipes/iron_leggings"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_pickaxe"
+                "path": "recipes/iron_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_shovel"
+                "path": "recipes/iron_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/iron_sword"
+                "path": "recipes/iron_sword"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_axe"
+                "path": "recipes/diamond_axe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_boots"
+                "path": "recipes/diamond_boots"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_chestplate"
+                "path": "recipes/diamond_chestplate"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_helmet"
+                "path": "recipes/diamond_helmet"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_hoe"
+                "path": "recipes/diamond_hoe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_leggings"
+                "path": "recipes/diamond_leggings"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_pickaxe"
+                "path": "recipes/diamond_pickaxe"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_shovel"
+                "path": "recipes/diamond_shovel"
             },
             {
                 "namespace": "minecraft",
-                "path": "recipe/diamond_sword"
+                "path": "recipes/diamond_sword"
             }
         ]
     }

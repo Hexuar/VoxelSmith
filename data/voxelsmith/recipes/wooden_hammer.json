@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P ",
+    " SP",
+    "S  "
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Wooden Hammer\",\"italic\":false}",
+      "minecraft:custom_model_data": 2221800,
+      "minecraft:custom_data" : {
+        "voxelsmith": {"hammer":true, "wooden_hammer":true}
+      },
+      "minecraft:lore": [
+        "{\"text\":\"\"}",
+        "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\" 3 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
+      ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [-597928423,211109744,-1599444943,-156135484],
+            "name": "generic.attack_speed",
+            "amount": -3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:generic.attack_damage",
+            "uuid": [-882451873,-1267317939,-1737253534,-226747627],
+            "name": "generic.attack_damage",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      }
+    }
+  }
+}
