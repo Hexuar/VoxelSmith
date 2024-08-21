@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Netherite Blade",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Combine With:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Netherite Pommel",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Netherite Crossguard",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Stick",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221850
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "netherite_blade": true
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:fire_resistant": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Temperature: ",
+          "color": "gray",
+          "italic": false,
+          "extra": [
+            {
+              "score": {
+                "name": "#temperature",
+                "objective": "voxelsmith.value"
+              },
+              "color": "gold",
+              "italic": false,
+              "extra": [
+                {
+                  "text": "°C",
+                  "color": "gold",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    ],
+    "mode": "replace_section"
+  }
+]

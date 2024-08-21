@@ -1,0 +1,16 @@
+{
+  "parent": "voxelsmith:tutorial/knap_item",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": "What an adventure",
+    "description": "Finally craft your long awaited item by throwing it onto the knapping surface with the ingredients specified in its lore",
+    "frame": "goal"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

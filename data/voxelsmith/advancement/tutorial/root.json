@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_model_data": 2221800
+      }
+    },
+    "title": "Voxelsmith",
+    "description": "Realistic smithing in Minecraft!",
+    "background": "minecraft:textures/block/tuff.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,7 +1,138 @@
 {
     "pack": {
-        "pack_format": 26,
-        "supported_formats": [18, 26],
+        "pack_format": 48,
         "description": "Realistic smithing!"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "recipe/stone_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/stone_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/stone_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/stone_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/stone_sword"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_boots"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_chestplate"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_helmet"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_leggings"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/golden_sword"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_boots"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_chestplate"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_helmet"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_leggings"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/iron_sword"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_boots"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_chestplate"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_helmet"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_leggings"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_sword"
+            }
+        ]
     }
 }

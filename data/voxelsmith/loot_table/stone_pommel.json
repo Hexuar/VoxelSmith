@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Stone Pommel",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Combine With:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Stone Crossguard",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Stone Blade",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Stick",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2221812,
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "crafting_item": true,
+                    "stone_pommel": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

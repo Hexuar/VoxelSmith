@@ -1,0 +1,15 @@
+{
+  "parent": "voxelsmith:tutorial/hammer",
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone"
+    },
+    "title": "Knapster!",
+    "description": "Throw some cobblestone onto smooth stone or any polished stone variant"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

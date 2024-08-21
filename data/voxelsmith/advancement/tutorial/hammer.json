@@ -1,0 +1,31 @@
+{
+  "parent": "voxelsmith:tutorial/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword",
+      "components": {
+        "minecraft:custom_model_data": 2221800
+      }
+    },
+    "title": "Stop, hammertime!",
+    "description": "Craft a wooden hammer"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "voxelsmith": {
+                  "hammer": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

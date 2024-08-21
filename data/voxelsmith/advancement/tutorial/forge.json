@@ -1,0 +1,15 @@
+{
+  "parent": "voxelsmith:tutorial/anvil",
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": "The Forge",
+    "description": "Throw an ingot on a magma block"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

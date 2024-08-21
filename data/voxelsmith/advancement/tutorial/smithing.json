@@ -1,0 +1,15 @@
+{
+  "parent": "voxelsmith:tutorial/tongs",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": "Hot Voxels!",
+    "description": "Throw your hot ingot onto an anvil"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

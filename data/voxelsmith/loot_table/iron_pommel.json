@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Iron Pommel",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Combine With:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Iron Crossguard",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Iron Blade",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": " 1 Stick",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 2221832,
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "crafting_item": true,
+                    "iron_pommel": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

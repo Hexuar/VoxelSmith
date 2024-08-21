@@ -1,0 +1,58 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Hoe Head Blueprint",
+                  "italic": false,
+                  "color": "white"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Requires 2 Ingots",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_custom_model_data",
+                "value": 2221866
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "voxelsmith": {
+                    "blueprint": true,
+                    "tool_blueprint": true,
+                    "hoe_head_blueprint": true
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "voxelsmith": {
+                    "origin": {"x":4, "y":0, "z":5},
+                    "shape": [{"y": 0, "z": 1, "x": 0}, {"y": 0, "z": 2, "x": 0}, {"y": 0, "z": 0, "x": 1}, {"y": 0, "z": 1, "x": 1}, {"y": 0, "z": 2, "x": 1}, {"y": 0, "z": 3, "x": 1}, {"y": 0, "z": 0, "x": 2}, {"y": 0, "z": 1, "x": 2}, {"y": 0, "z": 2, "x": 2}, {"y": 0, "z": 3, "x": 2}, {"y": 0, "z": 1, "x": 3}, {"y": 0, "z": 2, "x": 3}, {"y": 0, "z": 3, "x": 3}, {"y": 0, "z": 4, "x": 3}, {"y": 0, "z": 2, "x": 4}, {"y": 0, "z": 3, "x": 4}, {"y": 0, "z": 4, "x": 4}, {"y": 0, "z": 5, "x": 4}, {"y": 0, "z": 3, "x": 5}, {"y": 0, "z": 4, "x": 5}, {"y": 0, "z": 5, "x": 5}, {"y": 0, "z": 3, "x": 6}, {"y": 0, "z": 4, "x": 6}, {"y": 0, "z": 5, "x": 6}, {"y": 0, "z": 4, "x": 7}]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

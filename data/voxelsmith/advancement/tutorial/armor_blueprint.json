@@ -1,0 +1,31 @@
+{
+  "parent": "voxelsmith:tutorial/sword_blueprint",
+  "display": {
+    "icon": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:custom_model_data": 2221869
+      }
+    },
+    "title": "Sketchiest",
+    "description": "Make an Armor Blueprint by Throwing 1 Paper, 1 Ink Sac and a Leather Armor Piece on a Crafting Table"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "voxelsmith": {
+                  "armor_blueprint": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

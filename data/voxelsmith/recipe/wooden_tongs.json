@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "S ",
+    " S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Wooden Tongs\",\"italic\":false}",
+      "minecraft:custom_model_data": 2221801,
+      "minecraft:custom_data" : {
+        "voxelsmith": {"tongs":true, "wooden_tongs":true}
+      },
+      "minecraft:lore": [
+        "{\"text\":\"\"}",
+        "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\" 1.5 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}",
+        "{\"text\":\" 1 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}"
+      ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.attack_speed",
+            "id": "voxelsmith:tool.attack_speed",
+            "amount": -3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:generic.attack_damage",
+            "id": "voxelsmith:tool.attack_damage",
+            "amount": 0.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      }
+    }
+  }
+}

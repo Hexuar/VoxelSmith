@@ -1,0 +1,24 @@
+{
+  "parent": "voxelsmith:tutorial/craft_knapped_item",
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": "The Blacksmith's Friend",
+    "description": "Obtain an Anvil"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:anvil"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

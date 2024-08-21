@@ -1,0 +1,15 @@
+{
+  "parent": "voxelsmith:tutorial/hit_voxel",
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": "Aaaaaand it's gone...",
+    "description": "Destroy a voxel by right clicking it with a hammer"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

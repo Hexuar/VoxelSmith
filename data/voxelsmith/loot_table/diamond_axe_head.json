@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Diamond Axe Head",
+                "italic": false,
+                "color": "white"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": ""
+                },
+                {
+                  "text": "Combine With:",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": " 2 Sticks",
+                  "italic": false,
+                  "color": "blue"
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2221846
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "voxelsmith": {
+                  "crafting_item": true,
+                  "diamond_axe_head": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
