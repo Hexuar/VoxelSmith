@@ -17,15 +17,10 @@ execute if score #hammer_mode voxelsmith.value matches 1 run advancement grant @
 execute if score #hammer_mode voxelsmith.value matches 1 run function voxelsmith:voxel/kill
 
 # Move Voxel
-execute if score #is_sneaking voxelsmith.value matches 0 run function voxelsmith:hammer/move_voxel/forwards
-execute if score #is_sneaking voxelsmith.value matches 1 run function voxelsmith:hammer/move_voxel/backwards
-function voxelsmith:voxel/move_down
-function voxelsmith:voxel/move_up
-function voxelsmith:voxel/update_pos
+execute if score #hammer_mode voxelsmith.value matches 0 run function voxelsmith:hammer/use/move_voxel
 
-execute unless score @s voxelsmith.pos.x matches 0..15 run function voxelsmith:voxel/kill
-execute unless score @s voxelsmith.pos.y matches 0..15 run function voxelsmith:voxel/kill
-execute unless score @s voxelsmith.pos.z matches 0..15 run function voxelsmith:voxel/kill
+# Store Data
+execute as @e[type=marker,tag=voxelsmith.current_ingot,tag=voxelsmith.voxel_shape,distance=..2] at @s run function voxelsmith:voxel_shape/store_data
 
-execute as @e[type=marker,tag=voxelsmith.current_ingot,tag=voxelsmith.voxel_shape] run function voxelsmith:voxel_shape/store_data
+
 tag @e remove voxelsmith.current_ingot

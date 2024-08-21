@@ -96,6 +96,42 @@
             {
                 "namespace": "minecraft",
                 "path": "recipe/iron_sword"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_axe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_boots"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_chestplate"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_helmet"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_hoe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_leggings"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_pickaxe"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_shovel"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/diamond_sword"
             }
         ]
     }
