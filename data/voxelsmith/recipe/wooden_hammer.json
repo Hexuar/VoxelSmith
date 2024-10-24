@@ -15,7 +15,12 @@
     "components": {
       "minecraft:custom_name": "{\"text\":\"Wooden Hammer\",\"italic\":false}",
       "minecraft:custom_model_data": 2221800,
-      "minecraft:custom_data": {},
+      "minecraft:custom_data": {
+        "voxelsmith": {
+          "hammer": true,
+          "diamond_hammer": true
+        }
+      },
       "minecraft:lore": [
         "{\"text\":\"\"}",
         "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",

@@ -13,7 +13,11 @@
     "components": {
       "minecraft:custom_name": "{\"text\":\"Wooden Tongs\",\"italic\":false}",
       "minecraft:custom_model_data": 2221801,
-      "minecraft:custom_data": {},
+      "minecraft:custom_data": {
+        "voxelsmith": {
+          "tongs": true
+        }
+      },
       "minecraft:lore": [
         "{\"text\":\"\"}",
         "{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}",
