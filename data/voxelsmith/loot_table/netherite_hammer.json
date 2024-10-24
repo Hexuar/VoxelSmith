@@ -54,18 +54,20 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:fire_resistant": {},
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                },
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "id": "voxelsmith:tool.attack_speed",
                       "amount": -3,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "id": "voxelsmith:tool.attack_damage",
                       "amount": 6,
                       "operation": "add_value"

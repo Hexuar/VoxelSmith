@@ -58,14 +58,14 @@
                 "minecraft:attribute_modifiers": {
                   "modifiers": [
                     {
-                      "type": "minecraft:generic.attack_speed",
+                      "type": "minecraft:attack_speed",
                       "id": "voxelsmith:tool.attack_speed",
                       "amount": -3,
                       "operation": "add_value",
                       "slot": "mainhand"
                     },
                     {
-                      "type": "minecraft:generic.attack_damage",
+                      "type": "minecraft:attack_damage",
                       "id": "voxelsmith:tool.attack_damage",
                       "amount": 1,
                       "operation": "add_value"

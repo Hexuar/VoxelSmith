@@ -50,7 +50,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:fire_resistant": {}
+                "minecraft:damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
               }
             }
           ]
