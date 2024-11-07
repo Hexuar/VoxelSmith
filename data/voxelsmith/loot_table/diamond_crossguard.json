@@ -53,6 +53,7 @@
               "tag": {
                 "voxelsmith": {
                   "crafting_item": true,
+                  "heatable_item": true,
                   "diamond_crossguard": true
                 }
               }

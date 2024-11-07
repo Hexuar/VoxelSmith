@@ -51,6 +51,7 @@
                 "minecraft:custom_data": {
                   "voxelsmith": {
                     "crafting_item": true,
+                  "heatable_item": true,
                     "iron_pommel": true
                   }
                 }
