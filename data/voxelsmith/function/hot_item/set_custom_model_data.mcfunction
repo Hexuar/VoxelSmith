@@ -1,1 +1,0 @@
-$item modify entity @s container.$(slot) [{"function":"set_custom_model_data","value":$(CustomModelData)}]

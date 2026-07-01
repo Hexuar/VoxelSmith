@@ -1,1 +1,0 @@
-$summon item ~ ~ ~ {Item:$(output)}

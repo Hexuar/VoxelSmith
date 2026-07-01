@@ -1,1 +1,0 @@
-$execute align xyz run tp ~$(x) ~$(y) ~$(z)
