@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PSP",
+    " S "
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.voxelsmith.wooden_hammer"
+      },
+      "minecraft:item_model": "voxelsmith:wooden_hammer",
+      "minecraft:custom_data": {
+        "voxelsmith": {
+          "hammer": true,
+          "wooden_hammer": true
+        }
+      },
+      "!minecraft:tool": {}
+    }
+  }
+}

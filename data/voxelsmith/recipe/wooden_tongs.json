@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S ",
+    " S"
+  ],
+  "key": {
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.voxelsmith.wooden_tongs"
+      },
+      "minecraft:item_model": "voxelsmith:wooden_tongs",
+      "minecraft:custom_data": {
+        "voxelsmith": {
+          "tongs": true,
+          "wooden_tongs": true
+        }
+      },
+      "!minecraft:tool": {}
+    }
+  }
+}

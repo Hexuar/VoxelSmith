@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.voxelsmith.spear_head_blueprint"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "text.voxelsmith.requirement",
+                    "with": [{"text": "?"}],
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:item_model": "voxelsmith:spear_head_blueprint",
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "spear_head_blueprint": true,
+                    "origin": {},
+                    "shape": []
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

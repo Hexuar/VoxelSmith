@@ -1,0 +1,1 @@
+title @p[distance=..5] actionbar {"text":"Item is too hot, cool in water first.","color":"red"}

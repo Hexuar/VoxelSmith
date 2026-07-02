@@ -6,6 +6,7 @@ scoreboard players set #20 voxelsmith.value 20
 
 # Global variables
 scoreboard players set #AMBIENT_TEMPERATURE voxelsmith.value 20
+scoreboard players set #MAX_GROUND_CRAFTING_TEMPERATURE voxelsmith.value 60
 
 # Recipe Data
 execute if score #debug voxelsmith.value matches 1 run tellraw @a {"text":"[VoxelSmith] Loading Recipes..."}

@@ -1,0 +1,1 @@
+$data modify storage voxelsmith:data recipe set from storage voxelsmith:smithing ground_recipes[$(i)]

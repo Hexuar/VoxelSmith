@@ -5,19 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:netherite_sword",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "translate": "item.voxelsmith.iron_hammer"
+                  "translate": "item.voxelsmith.netherite_hammer"
                 },
-                "minecraft:item_model": "voxelsmith:iron_hammer",
+                "minecraft:item_model": "voxelsmith:netherite_hammer",
                 "minecraft:custom_data": {
                   "voxelsmith": {
                     "hammer": true,
-                    "iron_hammer": true
+                    "netherite_hammer": true
                   }
                 },
                 "!minecraft:tool": {}
