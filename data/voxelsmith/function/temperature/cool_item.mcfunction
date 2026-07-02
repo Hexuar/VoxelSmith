@@ -2,7 +2,8 @@
 execute store result score #temperature voxelsmith.value run data get entity @s Item.components."minecraft:custom_data".voxelsmith.temperature.value
 
 # Cool
-$scoreboard players remove #temperature voxelsmith.value $(cooling_rate)
+$execute if score #temperature voxelsmith.value > #AMBIENT_TEMPERATURE voxelsmith.value run scoreboard players remove #temperature voxelsmith.value $(cooling_rate)
+execute if score #temperature voxelsmith.value < #AMBIENT_TEMPERATURE voxelsmith.value run scoreboard players operation #temperature voxelsmith.value = #AMBIENT_TEMPERATURE voxelsmith.value
 
 # Update item
 data modify storage voxelsmith:temperature slot set value 0

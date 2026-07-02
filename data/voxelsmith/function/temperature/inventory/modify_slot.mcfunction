@@ -8,7 +8,7 @@ scoreboard players operation #deltaTemperature voxelsmith.value = #currentTimest
 scoreboard players operation #deltaTemperature voxelsmith.value -= #timestamp voxelsmith.value
 scoreboard players operation #deltaTemperature voxelsmith.value /= #20 voxelsmith.value
 scoreboard players operation #temperature voxelsmith.value -= #deltaTemperature voxelsmith.value
-execute if score #temperature voxelsmith.value matches ..-1 run scoreboard players set #temperature voxelsmith.value 0
+execute if score #temperature voxelsmith.value < #AMBIENT_TEMPERATURE voxelsmith.value run scoreboard players operation #temperature voxelsmith.value = #AMBIENT_TEMPERATURE voxelsmith.value
 
 # Update item
 $data modify storage voxelsmith:temperature slot set value $(slot)
