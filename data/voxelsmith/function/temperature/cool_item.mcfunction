@@ -6,6 +6,9 @@ execute if score #temperature voxelsmith.value = #AMBIENT_TEMPERATURE voxelsmith
 $execute if score #temperature voxelsmith.value > #AMBIENT_TEMPERATURE voxelsmith.value run scoreboard players remove #temperature voxelsmith.value $(cooling_rate)
 execute if score #temperature voxelsmith.value < #AMBIENT_TEMPERATURE voxelsmith.value run scoreboard players operation #temperature voxelsmith.value = #AMBIENT_TEMPERATURE voxelsmith.value
 
+# Make persistent
+data modify entity @s Age set value 0
+
 # Update item
 data modify storage voxelsmith:temperature slot set value 0
 execute store result storage voxelsmith:temperature timestamp int 1 run time query gametime

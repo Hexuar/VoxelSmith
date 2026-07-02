@@ -6,6 +6,9 @@ execute if score #temperature voxelsmith.value matches 0 run scoreboard players 
 $execute if score #temperature voxelsmith.value matches ..$(max_temperature) run scoreboard players add #temperature voxelsmith.value $(heating_rate)
 $execute unless score #temperature voxelsmith.value matches ..$(max_temperature) run scoreboard players set #temperature voxelsmith.value $(max_temperature)
 
+# Make persistent
+data modify entity @s Age set value 0
+
 # Update item
 data modify storage voxelsmith:temperature slot set value 0
 execute store result storage voxelsmith:temperature timestamp int 1 run time query gametime

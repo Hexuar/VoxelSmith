@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.voxelsmith.iron_axe_head"
+                },
+                "minecraft:lore": [
+                    {
+                        "text": ""
+                    },
+                    {
+                        "translate": "text.voxelsmith.combine",
+                        "color": "gray",
+                        "italic": false
+                    },
+                    {
+                        "text": " 2 ",
+                        "extra": [
+                            {"translate": "item.minecraft.stick"}
+                        ],
+                        "color": "blue",
+                        "italic": false
+                    }
+                ],
+                "minecraft:item_model": "voxelsmith:iron_axe_head",
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "iron_axe_head": true
+                  }
+                },
+                "!minecraft:tool": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
