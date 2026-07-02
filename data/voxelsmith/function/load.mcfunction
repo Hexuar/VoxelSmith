@@ -7,6 +7,7 @@ scoreboard objectives add voxelsmith.pos.z dummy
 
 # Values
 scoreboard players set #16 voxelsmith.value 16
+scoreboard players set #18 voxelsmith.value 18
 scoreboard players set #20 voxelsmith.value 20
 scoreboard players set #256 voxelsmith.value 256
 scoreboard players set #65536 voxelsmith.value 65536
