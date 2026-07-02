@@ -1,5 +1,9 @@
 # Scoreboards
 scoreboard objectives add voxelsmith.value dummy
+scoreboard objectives add voxelsmith.ingotID dummy
+scoreboard objectives add voxelsmith.pos.x dummy
+scoreboard objectives add voxelsmith.pos.y dummy
+scoreboard objectives add voxelsmith.pos.z dummy
 
 # Values
 scoreboard players set #20 voxelsmith.value 20

@@ -1,0 +1,15 @@
+execute if score #count voxelsmith.value matches 1 run function voxelsmith:voxel_shape/set_size/1
+execute if score #count voxelsmith.value matches 2 run function voxelsmith:voxel_shape/set_size/2
+execute if score #count voxelsmith.value matches 3 run function voxelsmith:voxel_shape/set_size/3
+execute if score #count voxelsmith.value matches 4 run function voxelsmith:voxel_shape/set_size/4
+execute if score #count voxelsmith.value matches 5 run function voxelsmith:voxel_shape/set_size/5
+execute if score #count voxelsmith.value matches 6 run function voxelsmith:voxel_shape/set_size/6
+execute if score #count voxelsmith.value matches 7 run function voxelsmith:voxel_shape/set_size/7
+execute if score #count voxelsmith.value matches 8 run function voxelsmith:voxel_shape/set_size/8
+execute if score #count voxelsmith.value matches 9 run function voxelsmith:voxel_shape/set_size/9
+execute if score #count voxelsmith.value matches 10 run function voxelsmith:voxel_shape/set_size/10
+execute if score #count voxelsmith.value matches 11 run function voxelsmith:voxel_shape/set_size/11
+execute if score #count voxelsmith.value matches 12 run function voxelsmith:voxel_shape/set_size/12
+execute if score #count voxelsmith.value matches 13 run function voxelsmith:voxel_shape/set_size/13
+execute if score #count voxelsmith.value matches 14 run function voxelsmith:voxel_shape/set_size/14
+execute if score #count voxelsmith.value matches 15 run function voxelsmith:voxel_shape/set_size/15
