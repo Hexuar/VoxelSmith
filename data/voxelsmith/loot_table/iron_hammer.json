@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.voxelsmith.iron_axe"
+                },
+                "minecraft:item_model": "voxelsmith:iron_hammer",
+                "!minecraft:tool": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
