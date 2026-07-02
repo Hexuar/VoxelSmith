@@ -1,0 +1,1 @@
+$summon item_display ~$(x) ~$(y) ~$(z) {Tags:["voxelsmith.blueprint_voxel"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.03125f,0.03125f,0.03125f],scale:[0.063f,0.063f,0.063f]},item:{id:"minecraft:structure_block",count:1b,components:{"minecraft:custom_model_data":2221800}}}
