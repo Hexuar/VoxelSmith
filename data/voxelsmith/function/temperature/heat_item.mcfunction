@@ -11,3 +11,7 @@ data modify storage voxelsmith:temperature slot set value 0
 execute store result storage voxelsmith:temperature timestamp int 1 run time query gametime
 execute store result storage voxelsmith:temperature temperature int 1 run scoreboard players get #temperature voxelsmith.value
 function voxelsmith:temperature/update_item with storage voxelsmith:temperature
+
+# Effects
+particle flame ~ ~ ~ 0.25 0.25 0.25 0.01 5
+playsound minecraft:block.furnace.fire_crackle block @a ~ ~ ~

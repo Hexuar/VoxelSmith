@@ -3,7 +3,8 @@ $execute store result score #temperature voxelsmith.value run data get entity @s
 execute if score #temperature voxelsmith.value matches 0 run return fail
 $execute store result score #timestamp voxelsmith.value run data get entity @s Inventory[{Slot:$(slot)b}].components."minecraft:custom_data".voxelsmith.temperature.timestamp
 
-# Update temperature (1°C/s) 
+# Update temperature (1°C/s)
+execute if score #temperature voxelsmith.value = #AMBIENT_TEMPERATURE voxelsmith.value run return fail
 scoreboard players operation #deltaTemperature voxelsmith.value = #currentTimestamp voxelsmith.value
 scoreboard players operation #deltaTemperature voxelsmith.value -= #timestamp voxelsmith.value
 scoreboard players operation #deltaTemperature voxelsmith.value /= #20 voxelsmith.value
