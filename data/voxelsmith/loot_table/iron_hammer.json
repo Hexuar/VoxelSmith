@@ -14,6 +14,11 @@
                   "translate": "item.voxelsmith.iron_axe"
                 },
                 "minecraft:item_model": "voxelsmith:iron_hammer",
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "hammer": true
+                  }
+                },
                 "!minecraft:tool": {}
               }
             }
