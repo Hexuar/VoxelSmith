@@ -41,7 +41,7 @@ scoreboard players operation #blue voxelsmith.value = #blue_3 voxelsmith.value
 scoreboard players operation #blue voxelsmith.value -= #blue_2 voxelsmith.value
 
 
-# To decimal
+# Store
 scoreboard players operation #temp.r voxelsmith.value = #red voxelsmith.value
 scoreboard players operation #temp.g voxelsmith.value = #green voxelsmith.value
 scoreboard players operation #temp.b voxelsmith.value = #blue voxelsmith.value

@@ -5,7 +5,7 @@ execute as @e[type=minecraft:item] at @s if predicate voxelsmith:item/is_materia
 # Blueprints
 execute as @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{voxelsmith:{"blueprint": true}}}}},tag=!voxelsmith.blueprint.used] at @s if block ~ ~-1 ~ #voxelsmith:working_surface align xyz if entity @e[type=minecraft:marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] unless entity @e[type=minecraft:item_display,tag=voxelsmith.blueprint_voxel,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run function voxelsmith:blueprint/summon_shape
 
-execute as @e[type=minecraft:item_display,tag=voxelsmith.blueprint_voxel] at @s align xyz unless entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run kill @s
+#execute as @e[type=minecraft:item_display,tag=voxelsmith.blueprint_voxel] at @s align xyz unless entity @e[type=marker,tag=voxelsmith.voxel_shape,sort=nearest,limit=1,dx=0,dy=-1,dz=0] run kill @s
 
 
 # Item heating
@@ -13,7 +13,7 @@ execute as @e[type=minecraft:item] if predicate voxelsmith:item/is_smithing_mate
 
 
 # Item quenching
-execute as @e[type=minecraft:item] at @s if block ~ ~ ~ #voxelsmith:quenching if data entity @s Item.components."minecraft:custom_data".voxelsmith.temperature run function voxelsmith:temperature/cool_item {cooling_rate:10}
+execute as @e[type=minecraft:item] at @s if block ~ ~ ~ #voxelsmith:quenching if data entity @s Item.components."minecraft:custom_data".voxelsmith.temperature run function voxelsmith:temperature/cool_item {cooling_rate:20}
 
 
 # Ground recipes

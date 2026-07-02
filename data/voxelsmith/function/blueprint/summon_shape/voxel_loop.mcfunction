@@ -1,5 +1,4 @@
 execute if score #index voxelsmith.value >= #length voxelsmith.value run return 0
-
     execute store result storage voxelsmith:data index int 1 run scoreboard players get #index voxelsmith.value
 
     function voxelsmith:blueprint/summon_shape/get_voxel_data with storage voxelsmith:data
@@ -16,6 +15,3 @@ execute if score #index voxelsmith.value >= #length voxelsmith.value run return 
 
 scoreboard players add #index voxelsmith.value 1
 execute run function voxelsmith:blueprint/summon_shape/voxel_loop
-
-
-

@@ -1,1 +1,1 @@
-$execute align xyz positioned ~$(x) ~$(y) ~$(z) run function voxelsmith:blueprints/summon_shape/voxel_loop
+$execute align xyz positioned ~$(x) ~$(y) ~$(z) run function voxelsmith:blueprint/summon_shape/voxel_loop
