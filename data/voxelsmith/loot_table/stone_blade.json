@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:rarity": "common",
                 "minecraft:item_name": {
-                  "translate": "item.voxelsmith.iron_pommel"
+                  "translate": "item.voxelsmith.stone_blade"
                 },
                 "minecraft:lore": [
                   {
@@ -27,7 +27,7 @@
                     "text": " 1 ",
                     "extra": [
                       {
-                        "translate": "item.voxelsmith.iron_crossguard"
+                        "translate": "item.voxelsmith.stone_pommel"
                       }
                     ],
                     "color": "blue",
@@ -37,7 +37,7 @@
                     "text": " 1 ",
                     "extra": [
                       {
-                        "translate": "item.voxelsmith.iron_blade"
+                        "translate": "item.voxelsmith.stone_crossguard"
                       }
                     ],
                     "color": "blue",
@@ -54,10 +54,10 @@
                     "italic": false
                   }
                 ],
-                "minecraft:item_model": "voxelsmith:iron_pommel",
+                "minecraft:item_model": "voxelsmith:stone_blade",
                 "minecraft:custom_data": {
                   "voxelsmith": {
-                    "iron_pommel": true
+                    "stone_blade": true
                   }
                 },
                 "!minecraft:tool": {}

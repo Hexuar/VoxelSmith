@@ -10,26 +10,29 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:rarity": "common",
                 "minecraft:item_name": {
                   "translate": "item.voxelsmith.iron_axe_head"
                 },
                 "minecraft:lore": [
-                    {
-                        "text": ""
-                    },
-                    {
-                        "translate": "text.voxelsmith.combine",
-                        "color": "gray",
-                        "italic": false
-                    },
-                    {
-                        "text": " 2 ",
-                        "extra": [
-                            {"translate": "item.minecraft.stick"}
-                        ],
-                        "color": "blue",
-                        "italic": false
-                    }
+                  {
+                    "text": ""
+                  },
+                  {
+                    "translate": "text.voxelsmith.combine",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": " 2 ",
+                    "extra": [
+                      {
+                        "translate": "item.minecraft.stick"
+                      }
+                    ],
+                    "color": "blue",
+                    "italic": false
+                  }
                 ],
                 "minecraft:item_model": "voxelsmith:iron_axe_head",
                 "minecraft:custom_data": {

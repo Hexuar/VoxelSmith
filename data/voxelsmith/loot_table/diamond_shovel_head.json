@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:rarity": "common",
                 "minecraft:item_name": {
-                  "translate": "item.voxelsmith.iron_pommel"
+                  "translate": "item.voxelsmith.diamond_shovel_head"
                 },
                 "minecraft:lore": [
                   {
@@ -24,27 +24,7 @@
                     "italic": false
                   },
                   {
-                    "text": " 1 ",
-                    "extra": [
-                      {
-                        "translate": "item.voxelsmith.iron_crossguard"
-                      }
-                    ],
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": " 1 ",
-                    "extra": [
-                      {
-                        "translate": "item.voxelsmith.iron_blade"
-                      }
-                    ],
-                    "color": "blue",
-                    "italic": false
-                  },
-                  {
-                    "text": " 1 ",
+                    "text": " 2 ",
                     "extra": [
                       {
                         "translate": "item.minecraft.stick"
@@ -54,10 +34,10 @@
                     "italic": false
                   }
                 ],
-                "minecraft:item_model": "voxelsmith:iron_pommel",
+                "minecraft:item_model": "voxelsmith:diamond_shovel_head",
                 "minecraft:custom_data": {
                   "voxelsmith": {
-                    "iron_pommel": true
+                    "diamond_shovel_head": true
                   }
                 },
                 "!minecraft:tool": {}

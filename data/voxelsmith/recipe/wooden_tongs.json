@@ -20,7 +20,9 @@
           "wooden_tongs": true
         }
       },
-      "!minecraft:tool": {}
+      "!minecraft:tool": {},
+      "!minecraft:weapon": {},
+      "!attribute_modifiers": {}
     }
   }
 }
