@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "components": {},
+              "predicates": {
+                "minecraft:custom_data": {
+                  "voxelsmith": {
+                    "hammer": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:interaction",
+              "minecraft:entity_tags": {
+                "all_of": [
+                  "voxelsmith.voxel"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "voxelsmith:hammer/left_click"
+  }
+}

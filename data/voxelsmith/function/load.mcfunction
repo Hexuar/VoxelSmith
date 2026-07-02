@@ -10,7 +10,9 @@ scoreboard players set #16 voxelsmith.value 16
 scoreboard players set #18 voxelsmith.value 18
 scoreboard players set #20 voxelsmith.value 20
 scoreboard players set #256 voxelsmith.value 256
+scoreboard players set #625 voxelsmith.value 625
 scoreboard players set #65536 voxelsmith.value 65536
+scoreboard players set #100000 voxelsmith.value 100000
 
 # Global variables
 scoreboard players set #AMBIENT_TEMPERATURE voxelsmith.value 20
